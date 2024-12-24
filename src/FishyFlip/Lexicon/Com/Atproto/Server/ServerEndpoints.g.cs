@@ -162,14 +162,14 @@ namespace FishyFlip.Lexicon.Com.Atproto.Server
         /// <param name="name"></param>
         /// <param name="privileged"></param>
         /// <param name="cancellationToken"></param>
-        /// <returns>Result of <see cref="FishyFlip.Lexicon.Com.Atproto.Server.AppPasswordDef?"/></returns>
-        public static Task<Result<FishyFlip.Lexicon.Com.Atproto.Server.AppPasswordDef?>> CreateAppPasswordAsync (this FishyFlip.ATProtocol atp, string name, bool? privileged = default, CancellationToken cancellationToken = default)
+        /// <returns>Result of <see cref="FishyFlip.Lexicon.Com.Atproto.Server.AppPassword?"/></returns>
+        public static Task<Result<FishyFlip.Lexicon.Com.Atproto.Server.AppPassword?>> CreateAppPasswordAsync (this FishyFlip.ATProtocol atp, string name, bool? privileged = default, CancellationToken cancellationToken = default)
         {
             var endpointUrl = CreateAppPassword.ToString();
             var inputItem = new CreateAppPasswordInput();
             inputItem.Name = name;
             inputItem.Privileged = privileged;
-            return atp.Post<CreateAppPasswordInput, FishyFlip.Lexicon.Com.Atproto.Server.AppPasswordDef?>(endpointUrl, atp.Options.SourceGenerationContext.ComAtprotoServerCreateAppPasswordInput!, atp.Options.SourceGenerationContext.ComAtprotoServerAppPasswordDef!, inputItem, cancellationToken);
+            return atp.Post<CreateAppPasswordInput, FishyFlip.Lexicon.Com.Atproto.Server.AppPassword?>(endpointUrl, atp.Options.SourceGenerationContext.ComAtprotoServerCreateAppPasswordInput!, atp.Options.SourceGenerationContext.ComAtprotoServerAppPassword!, inputItem, cancellationToken);
         }
 
 
@@ -318,12 +318,12 @@ namespace FishyFlip.Lexicon.Com.Atproto.Server
             List<string> queryStrings = new();
             if (includeUsed != null)
             {
-                queryStrings.Add("includeUsed=" + includeUsed);
+                queryStrings.Add("includeUsed=" + (includeUsed.Value ? "true" : "false"));
             }
 
             if (createAvailable != null)
             {
-                queryStrings.Add("createAvailable=" + createAvailable);
+                queryStrings.Add("createAvailable=" + (createAvailable.Value ? "true" : "false"));
             }
 
             endpointUrl += string.Join("&", queryStrings);
