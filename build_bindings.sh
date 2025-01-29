@@ -7,19 +7,6 @@
 # List of git repos to clone
 REPOS=(
     "https://github.com/bluesky-social/atproto.git"
-    "https://github.com/whtwnd/whitewind-blog.git"
-    "https://github.com/ziodotsh/lexicons.git"
-    "https://github.com/shinolabs/PinkSea.git"
-    "https://github.com/mkizka/linkat.git"
-    "https://github.com/likeandscribe/frontpage.git"
-    "https://github.com/psky-atp/client.git"
-    "https://github.com/Gregoor/skylights.git"
-    "https://github.com/echo8/pastesphere.git"
-    "https://github.com/marukun712/AniBlue.git"
-    "https://github.com/lexicon-community/lexicon.git"
-    "https://github.com/icidasset/radical-edward.git"
-    "https://github.com/nperez0111/bookhive.git"
-    "https://github.com/teal-fm/teal.git"
 )
 
 PWD=$(pwd)

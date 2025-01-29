@@ -50,11 +50,6 @@ namespace FishyFlip
         public FishyFlip.Lexicon.App.Bsky.Video.BlueskyVideo Video => new (this);
 
         /// <summary>
-        /// buzz.bookhive Endpoint Group.
-        /// </summary>
-        public FishyFlip.Lexicon.Buzz.Bookhive.BuzzBookhive BuzzBookhive => new (this);
-
-        /// <summary>
         /// chat.bsky.actor Endpoint Group.
         /// </summary>
         public FishyFlip.Lexicon.Chat.Bsky.Actor.ChatBskyActor ChatBskyActor => new (this);
@@ -108,26 +103,6 @@ namespace FishyFlip
         /// com.atproto.temp Endpoint Group.
         /// </summary>
         public FishyFlip.Lexicon.Com.Atproto.Temp.ATProtoTemp Temp => new (this);
-
-        /// <summary>
-        /// com.shinolabs.pinksea Endpoint Group.
-        /// </summary>
-        public FishyFlip.Lexicon.Com.Shinolabs.Pinksea.ComShinolabsPinksea ComShinolabsPinksea => new (this);
-
-        /// <summary>
-        /// com.whtwnd.blog Endpoint Group.
-        /// </summary>
-        public FishyFlip.Lexicon.Com.Whtwnd.Blog.ComWhtwndBlog ComWhtwndBlog => new (this);
-
-        /// <summary>
-        /// community.lexicon.bookmarks Endpoint Group.
-        /// </summary>
-        public FishyFlip.Lexicon.Community.Lexicon.Bookmarks.CommunityLexiconBookmarks CommunityLexiconBookmarks => new (this);
-
-        /// <summary>
-        /// fm.teal.alpha.feed Endpoint Group.
-        /// </summary>
-        public FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.FmTealAlphaFeed FmTealAlphaFeed => new (this);
 
         /// <summary>
         /// tools.ozone.communication Endpoint Group.

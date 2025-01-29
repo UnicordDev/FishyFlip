@@ -57,12 +57,8 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Server.AppPasswordDef)this, SourceGenerationContext.Default.ComAtprotoServerAppPasswordDef);
                 case "app.bsky.embed.defs#aspectRatio":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Embed.AspectRatio)this, SourceGenerationContext.Default.AppBskyEmbedAspectRatio);
-                case "com.shinolabs.pinksea.appViewDefs#author":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Author)this, SourceGenerationContext.Default.ComShinolabsPinkseaAuthor);
                 case "chat.bsky.convo.sendMessageBatch#batchItem":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Convo.BatchItem)this, SourceGenerationContext.Default.ChatBskyConvoBatchItem);
-                case "com.whtwnd.blog.defs#blobMetadata":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.BlobMetadata)this, SourceGenerationContext.Default.ComWhtwndBlogBlobMetadata);
                 case "tools.ozone.moderation.defs#blobView":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.BlobView)this, SourceGenerationContext.Default.ToolsOzoneModerationBlobView);
                 case "app.bsky.graph.block":
@@ -71,38 +67,18 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.BlockedAuthor)this, SourceGenerationContext.Default.AppBskyFeedBlockedAuthor);
                 case "app.bsky.feed.defs#blockedPost":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.BlockedPost)this, SourceGenerationContext.Default.AppBskyFeedBlockedPost);
-                case "com.whtwnd.blog.defs#blogEntry":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.BlogEntry)this, SourceGenerationContext.Default.ComWhtwndBlogBlogEntry);
-                case "blue.linkat.board":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Blue.Linkat.Board)this, SourceGenerationContext.Default.BlueLinkatBoard);
-                case "buzz.bookhive.book":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Buzz.Bookhive.Book)this, SourceGenerationContext.Default.BuzzBookhiveBook);
-                case "community.lexicon.bookmarks.bookmark":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Community.Lexicon.Bookmarks.Bookmark)this, SourceGenerationContext.Default.CommunityLexiconBookmarksBookmark);
-                case "blue.zio.atfile.finger#browser":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Blue.Zio.Atfile.Browser)this, SourceGenerationContext.Default.BlueZioAtfileBrowser);
                 case "app.bsky.actor.defs#bskyAppProgressGuide":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.BskyAppProgressGuide)this, SourceGenerationContext.Default.AppBskyActorBskyAppProgressGuide);
                 case "app.bsky.actor.defs#bskyAppStatePref":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.BskyAppStatePref)this, SourceGenerationContext.Default.AppBskyActorBskyAppStatePref);
-                case "buzz.bookhive.buzz":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Buzz.Bookhive.Buzz)this, SourceGenerationContext.Default.BuzzBookhiveBuzz);
                 case "app.bsky.richtext.facet#byteSlice":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Richtext.ByteSlice)this, SourceGenerationContext.Default.AppBskyRichtextByteSlice);
-                case "social.psky.richtext.facet#byteSlice":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Social.Psky.Richtext.ByteSlice)this, SourceGenerationContext.Default.SocialPskyRichtextByteSlice);
                 case "app.bsky.embed.video#caption":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Embed.Caption)this, SourceGenerationContext.Default.AppBskyEmbedCaption);
-                case "blue.linkat.board#card":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Blue.Linkat.Card)this, SourceGenerationContext.Default.BlueLinkatCard);
                 case "com.atproto.server.checkAccountStatus#CheckAccountStatusOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Server.CheckAccountStatusOutput)this, SourceGenerationContext.Default.ComAtprotoServerCheckAccountStatusOutput);
                 case "com.atproto.temp.checkSignupQueue#CheckSignupQueueOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Temp.CheckSignupQueueOutput)this, SourceGenerationContext.Default.ComAtprotoTempCheckSignupQueueOutput);
-                case "com.whtwnd.blog.defs#comment":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.Comment)this, SourceGenerationContext.Default.ComWhtwndBlogComment);
-                case "fyi.unravel.frontpage.comment":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Comment)this, SourceGenerationContext.Default.FyiUnravelFrontpageComment);
                 case "com.atproto.sync.subscribeRepos#commit":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Sync.Commit)this, SourceGenerationContext.Default.ComAtprotoSyncCommit);
                 case "com.atproto.repo.defs#commitMeta":
@@ -203,16 +179,10 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.EmitEventInput)this, SourceGenerationContext.Default.ToolsOzoneModerationEmitEventInput);
                 case "com.atproto.admin.enableAccountInvites#EnableAccountInvitesInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Admin.EnableAccountInvitesInput)this, SourceGenerationContext.Default.ComAtprotoAdminEnableAccountInvitesInput);
-                case "com.whtwnd.blog.entry":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.Entry)this, SourceGenerationContext.Default.ComWhtwndBlogEntry);
                 case "app.bsky.embed.external#external":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Embed.External)this, SourceGenerationContext.Default.AppBskyEmbedExternal);
                 case "app.bsky.richtext.facet":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Richtext.Facet)this, SourceGenerationContext.Default.AppBskyRichtextFacet);
-                case "social.psky.richtext.facet":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Social.Psky.Richtext.Facet)this, SourceGenerationContext.Default.SocialPskyRichtextFacet);
-                case "fm.teal.alpha.actor.profile#featuredItem":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.FeaturedItem)this, SourceGenerationContext.Default.FmTealAlphaActorFeaturedItem);
                 case "app.bsky.feed.describeFeedGenerator#feed":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.Feed)this, SourceGenerationContext.Default.AppBskyFeedFeed);
                 case "app.bsky.graph.starterpack#feedItem":
@@ -239,10 +209,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Admin.GetAccountInfosOutput)this, SourceGenerationContext.Default.ComAtprotoAdminGetAccountInfosOutput);
                 case "com.atproto.server.getAccountInviteCodes#GetAccountInviteCodesOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Server.GetAccountInviteCodesOutput)this, SourceGenerationContext.Default.ComAtprotoServerGetAccountInviteCodesOutput);
-                case "community.lexicon.bookmarks.getActorBookmarks#GetActorBookmarksOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Community.Lexicon.Bookmarks.GetActorBookmarksOutput)this, SourceGenerationContext.Default.CommunityLexiconBookmarksGetActorBookmarksOutput);
-                case "fm.teal.alpha.feed.getActorFeed#GetActorFeedOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.GetActorFeedOutput)this, SourceGenerationContext.Default.FmTealAlphaFeedGetActorFeedOutput);
                 case "app.bsky.feed.getActorFeeds#GetActorFeedsOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.GetActorFeedsOutput)this, SourceGenerationContext.Default.AppBskyFeedGetActorFeedsOutput);
                 case "app.bsky.feed.getActorLikes#GetActorLikesOutput":
@@ -253,12 +219,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.GetActorStarterPacksOutput)this, SourceGenerationContext.Default.AppBskyGraphGetActorStarterPacksOutput);
                 case "app.bsky.feed.getAuthorFeed#GetAuthorFeedOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.GetAuthorFeedOutput)this, SourceGenerationContext.Default.AppBskyFeedGetAuthorFeedOutput);
-                case "com.shinolabs.pinksea.getAuthorFeed#GetAuthorFeedOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetAuthorFeedOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetAuthorFeedOutput);
-                case "com.whtwnd.blog.getAuthorPosts#GetAuthorPostsOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.GetAuthorPostsOutput)this, SourceGenerationContext.Default.ComWhtwndBlogGetAuthorPostsOutput);
-                case "com.shinolabs.pinksea.getAuthorReplies#GetAuthorRepliesOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetAuthorRepliesOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetAuthorRepliesOutput);
                 case "app.bsky.graph.getBlocks#GetBlocksOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.GetBlocksOutput)this, SourceGenerationContext.Default.AppBskyGraphGetBlocksOutput);
                 case "app.bsky.unspecced.getConfig#GetConfigOutput":
@@ -269,8 +229,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Convo.GetConvoForMembersOutput)this, SourceGenerationContext.Default.ChatBskyConvoGetConvoForMembersOutput);
                 case "chat.bsky.convo.getConvo#GetConvoOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Convo.GetConvoOutput)this, SourceGenerationContext.Default.ChatBskyConvoGetConvoOutput);
-                case "com.whtwnd.blog.getEntryMetadataByName#GetEntryMetadataByNameOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.GetEntryMetadataByNameOutput)this, SourceGenerationContext.Default.ComWhtwndBlogGetEntryMetadataByNameOutput);
                 case "app.bsky.feed.getFeedGenerator#GetFeedGeneratorOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.GetFeedGeneratorOutput)this, SourceGenerationContext.Default.AppBskyFeedGetFeedGeneratorOutput);
                 case "app.bsky.feed.getFeedGenerators#GetFeedGeneratorsOutput":
@@ -283,10 +241,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.GetFollowersOutput)this, SourceGenerationContext.Default.AppBskyGraphGetFollowersOutput);
                 case "app.bsky.graph.getFollows#GetFollowsOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.GetFollowsOutput)this, SourceGenerationContext.Default.AppBskyGraphGetFollowsOutput);
-                case "com.shinolabs.pinksea.getHandleFromDid#GetHandleFromDidOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetHandleFromDidOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetHandleFromDidOutput);
-                case "com.shinolabs.pinksea.getIdentity#GetIdentityOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetIdentityOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetIdentityOutput);
                 case "com.atproto.admin.getInviteCodes#GetInviteCodesOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Admin.GetInviteCodesOutput)this, SourceGenerationContext.Default.ComAtprotoAdminGetInviteCodesOutput);
                 case "app.bsky.video.getJobStatus#GetJobStatusOutput":
@@ -309,20 +263,12 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.GetListsOutput)this, SourceGenerationContext.Default.AppBskyGraphGetListsOutput);
                 case "chat.bsky.convo.getLog#GetLogOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Convo.GetLogOutput)this, SourceGenerationContext.Default.ChatBskyConvoGetLogOutput);
-                case "com.whtwnd.blog.getMentionsByEntry#GetMentionsByEntryOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.GetMentionsByEntryOutput)this, SourceGenerationContext.Default.ComWhtwndBlogGetMentionsByEntryOutput);
                 case "chat.bsky.moderation.getMessageContext#GetMessageContextOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Moderation.GetMessageContextOutput)this, SourceGenerationContext.Default.ChatBskyModerationGetMessageContextOutput);
                 case "chat.bsky.convo.getMessages#GetMessagesOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Convo.GetMessagesOutput)this, SourceGenerationContext.Default.ChatBskyConvoGetMessagesOutput);
                 case "app.bsky.graph.getMutes#GetMutesOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.GetMutesOutput)this, SourceGenerationContext.Default.AppBskyGraphGetMutesOutput);
-                case "com.shinolabs.pinksea.getOekaki#GetOekakiOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetOekakiOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetOekakiOutput);
-                case "com.shinolabs.pinksea.getParentForReply#GetParentForReplyOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetParentForReplyOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetParentForReplyOutput);
-                case "fm.teal.alpha.feed.getPlay#GetPlayOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.GetPlayOutput)this, SourceGenerationContext.Default.FmTealAlphaFeedGetPlayOutput);
                 case "app.bsky.unspecced.getPopularFeedGenerators#GetPopularFeedGeneratorsOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Unspecced.GetPopularFeedGeneratorsOutput)this, SourceGenerationContext.Default.AppBskyUnspeccedGetPopularFeedGeneratorsOutput);
                 case "app.bsky.feed.getPosts#GetPostsOutput":
@@ -335,8 +281,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.GetProfilesOutput)this, SourceGenerationContext.Default.AppBskyActorGetProfilesOutput);
                 case "app.bsky.feed.getQuotes#GetQuotesOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.GetQuotesOutput)this, SourceGenerationContext.Default.AppBskyFeedGetQuotesOutput);
-                case "com.shinolabs.pinksea.getRecent#GetRecentOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetRecentOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetRecentOutput);
                 case "com.atproto.identity.getRecommendedDidCredentials#GetRecommendedDidCredentialsOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Identity.GetRecommendedDidCredentialsOutput)this, SourceGenerationContext.Default.ComAtprotoIdentityGetRecommendedDidCredentialsOutput);
                 case "com.atproto.repo.getRecord#GetRecordOutput":
@@ -371,8 +315,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.GetSuggestionsOutput)this, SourceGenerationContext.Default.AppBskyActorGetSuggestionsOutput);
                 case "app.bsky.unspecced.getSuggestionsSkeleton#GetSuggestionsSkeletonOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Unspecced.GetSuggestionsSkeletonOutput)this, SourceGenerationContext.Default.AppBskyUnspeccedGetSuggestionsSkeletonOutput);
-                case "com.shinolabs.pinksea.getTagFeed#GetTagFeedOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetTagFeedOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetTagFeedOutput);
                 case "app.bsky.unspecced.getTaggedSuggestions#GetTaggedSuggestionsOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Unspecced.GetTaggedSuggestionsOutput)this, SourceGenerationContext.Default.AppBskyUnspeccedGetTaggedSuggestionsOutput);
                 case "app.bsky.feed.getTimeline#GetTimelineOutput":
@@ -387,22 +329,14 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Set.GetValuesOutput)this, SourceGenerationContext.Default.ToolsOzoneSetGetValuesOutput);
                 case "app.bsky.actor.defs#hiddenPostsPref":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.HiddenPostsPref)this, SourceGenerationContext.Default.AppBskyActorHiddenPostsPref);
-                case "buzz.bookhive.hiveBook":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Buzz.Bookhive.HiveBook)this, SourceGenerationContext.Default.BuzzBookhiveHiveBook);
-                case "com.shinolabs.pinksea.appViewDefs#hydratedOekaki":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.HydratedOekaki)this, SourceGenerationContext.Default.ComShinolabsPinkseaHydratedOekaki);
                 case "com.atproto.sync.subscribeRepos#identity":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Sync.Identity)this, SourceGenerationContext.Default.ComAtprotoSyncIdentity);
                 case "tools.ozone.moderation.defs#identityEvent":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.IdentityEvent)this, SourceGenerationContext.Default.ToolsOzoneModerationIdentityEvent);
                 case "app.bsky.embed.images#image":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Embed.Image)this, SourceGenerationContext.Default.AppBskyEmbedImage);
-                case "com.shinolabs.pinksea.oekaki#image":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Image)this, SourceGenerationContext.Default.ComShinolabsPinkseaImage);
                 case "tools.ozone.moderation.defs#imageDetails":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.ImageDetails)this, SourceGenerationContext.Default.ToolsOzoneModerationImageDetails);
-                case "com.shinolabs.pinksea.oekaki#imageLink":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.ImageLink)this, SourceGenerationContext.Default.ComShinolabsPinkseaImageLink);
                 case "com.atproto.label.subscribeLabels#info":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Label.Info)this, SourceGenerationContext.Default.ComAtprotoLabelInfo);
                 case "com.atproto.sync.subscribeRepos#info":
@@ -449,8 +383,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.LikeDef)this, SourceGenerationContext.Default.AppBskyFeedLikeDef);
                 case "app.bsky.richtext.facet#link":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Richtext.Link)this, SourceGenerationContext.Default.AppBskyRichtextLink);
-                case "social.psky.richtext.facet#link":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Social.Psky.Richtext.Link)this, SourceGenerationContext.Default.SocialPskyRichtextLink);
                 case "app.bsky.feed.describeFeedGenerator#links":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.Links)this, SourceGenerationContext.Default.AppBskyFeedLinks);
                 case "com.atproto.server.describeServer#links":
@@ -491,8 +423,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.ListViewBasic)this, SourceGenerationContext.Default.AppBskyGraphListViewBasic);
                 case "app.bsky.graph.defs#listViewerState":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.ListViewerState)this, SourceGenerationContext.Default.AppBskyGraphListViewerState);
-                case "blue.zio.atfile.lock":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Blue.Zio.Atfile.Lock)this, SourceGenerationContext.Default.BlueZioAtfileLock);
                 case "chat.bsky.convo.defs#logBeginConvo":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Convo.LogBeginConvo)this, SourceGenerationContext.Default.ChatBskyConvoLogBeginConvo);
                 case "chat.bsky.convo.defs#logCreateMessage":
@@ -501,18 +431,12 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Convo.LogDeleteMessage)this, SourceGenerationContext.Default.ChatBskyConvoLogDeleteMessage);
                 case "chat.bsky.convo.defs#logLeaveConvo":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Convo.LogLeaveConvo)this, SourceGenerationContext.Default.ChatBskyConvoLogLeaveConvo);
-                case "blue.zio.atfile.finger#machine":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Blue.Zio.Atfile.Machine)this, SourceGenerationContext.Default.BlueZioAtfileMachine);
                 case "tools.ozone.team.defs#member":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Team.Member)this, SourceGenerationContext.Default.ToolsOzoneTeamMember);
                 case "app.bsky.richtext.facet#mention":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Richtext.Mention)this, SourceGenerationContext.Default.AppBskyRichtextMention);
-                case "social.psky.richtext.facet#mention":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Social.Psky.Richtext.Mention)this, SourceGenerationContext.Default.SocialPskyRichtextMention);
                 case "app.bsky.feed.threadgate#mentionRule":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.MentionRule)this, SourceGenerationContext.Default.AppBskyFeedMentionRule);
-                case "social.psky.chat.message":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Social.Psky.Chat.Message)this, SourceGenerationContext.Default.SocialPskyChatMessage);
                 case "chat.bsky.convo.defs#messageInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Chat.Bsky.Convo.MessageInput)this, SourceGenerationContext.Default.ChatBskyConvoMessageInput);
                 case "chat.bsky.convo.defs#messageRef":
@@ -561,8 +485,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.ModEventView)this, SourceGenerationContext.Default.ToolsOzoneModerationModEventView);
                 case "tools.ozone.moderation.defs#modEventViewDetail":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.ModEventViewDetail)this, SourceGenerationContext.Default.ToolsOzoneModerationModEventViewDetail);
-                case "social.psky.chat.room#modlistRef":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Social.Psky.Chat.ModlistRef)this, SourceGenerationContext.Default.SocialPskyChatModlistRef);
                 case "app.bsky.graph.muteActor#MuteActorInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.MuteActorInput)this, SourceGenerationContext.Default.AppBskyGraphMuteActorInput);
                 case "app.bsky.graph.muteActorList#MuteActorListInput":
@@ -577,50 +499,28 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.MutedWordsPref)this, SourceGenerationContext.Default.AppBskyActorMutedWordsPref);
                 case "app.bsky.graph.muteThread#MuteThreadInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.MuteThreadInput)this, SourceGenerationContext.Default.AppBskyGraphMuteThreadInput);
-                case "my.skylights.rel#note":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.My.Skylights.Note)this, SourceGenerationContext.Default.MySkylightsNote);
                 case "app.bsky.graph.defs#notFoundActor":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.NotFoundActor)this, SourceGenerationContext.Default.AppBskyGraphNotFoundActor);
                 case "app.bsky.feed.defs#notFoundPost":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.NotFoundPost)this, SourceGenerationContext.Default.AppBskyFeedNotFoundPost);
                 case "app.bsky.notification.listNotifications#notification":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Notification.Notification)this, SourceGenerationContext.Default.AppBskyNotificationNotification);
-                case "com.whtwnd.blog.notifyOfNewEntry#NotifyOfNewEntryInput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.NotifyOfNewEntryInput)this, SourceGenerationContext.Default.ComWhtwndBlogNotifyOfNewEntryInput);
-                case "com.whtwnd.blog.notifyOfNewEntry#NotifyOfNewEntryOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.NotifyOfNewEntryOutput)this, SourceGenerationContext.Default.ComWhtwndBlogNotifyOfNewEntryOutput);
                 case "com.atproto.sync.notifyOfUpdate#NotifyOfUpdateInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Sync.NotifyOfUpdateInput)this, SourceGenerationContext.Default.ComAtprotoSyncNotifyOfUpdateInput);
                 case "app.bsky.actor.defs#nux":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.Nux)this, SourceGenerationContext.Default.AppBskyActorNux);
-                case "com.shinolabs.pinksea.oekaki":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Oekaki)this, SourceGenerationContext.Default.ComShinolabsPinkseaOekaki);
-                case "com.shinolabs.pinksea.appViewDefs#oekakiTombstone":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.OekakiTombstone)this, SourceGenerationContext.Default.ComShinolabsPinkseaOekakiTombstone);
-                case "com.whtwnd.blog.defs#ogp":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Whtwnd.Blog.Ogp)this, SourceGenerationContext.Default.ComWhtwndBlogOgp);
                 case "tools.ozone.setting.defs#option":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Setting.Option)this, SourceGenerationContext.Default.ToolsOzoneSettingOption);
                 case "app.bsky.actor.defs#personalDetailsPref":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.PersonalDetailsPref)this, SourceGenerationContext.Default.AppBskyActorPersonalDetailsPref);
-                case "fm.teal.alpha.feed.play":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.Play)this, SourceGenerationContext.Default.FmTealAlphaFeedPlay);
-                case "fm.teal.alpha.feed.defs#playView":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.PlayView)this, SourceGenerationContext.Default.FmTealAlphaFeedPlayView);
                 case "app.bsky.feed.post":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.Post)this, SourceGenerationContext.Default.AppBskyFeedPost);
-                case "fyi.unravel.frontpage.post":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Post)this, SourceGenerationContext.Default.FyiUnravelFrontpagePost);
                 case "app.bsky.feed.postgate":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.Postgate)this, SourceGenerationContext.Default.AppBskyFeedPostgate);
                 case "app.bsky.feed.defs#postView":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.PostView)this, SourceGenerationContext.Default.AppBskyFeedPostView);
                 case "app.bsky.actor.profile":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.Profile)this, SourceGenerationContext.Default.AppBskyActorProfile);
-                case "social.psky.actor.profile":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Social.Psky.Actor.Profile)this, SourceGenerationContext.Default.SocialPskyActorProfile);
-                case "fm.teal.alpha.actor.profile":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.Profile)this, SourceGenerationContext.Default.FmTealAlphaActorProfile);
                 case "app.bsky.actor.defs#profileAssociated":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.ProfileAssociated)this, SourceGenerationContext.Default.AppBskyActorProfileAssociated);
                 case "app.bsky.actor.defs#profileAssociatedChat":
@@ -649,8 +549,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Set.QuerySetsOutput)this, SourceGenerationContext.Default.ToolsOzoneSetQuerySetsOutput);
                 case "tools.ozone.moderation.queryStatuses#QueryStatusesOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.QueryStatusesOutput)this, SourceGenerationContext.Default.ToolsOzoneModerationQueryStatusesOutput);
-                case "my.skylights.rel#rating":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.My.Skylights.Rating)this, SourceGenerationContext.Default.MySkylightsRating);
                 case "app.bsky.feed.defs#reasonPin":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.ReasonPin)this, SourceGenerationContext.Default.AppBskyFeedReasonPin);
                 case "app.bsky.feed.defs#reasonRepost":
@@ -673,14 +571,10 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.RecordViewNotFound)this, SourceGenerationContext.Default.ToolsOzoneModerationRecordViewNotFound);
                 case "app.bsky.embed.recordWithMedia":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Embed.RecordWithMedia)this, SourceGenerationContext.Default.AppBskyEmbedRecordWithMedia);
-                case "my.skylights.rel#refItem":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.My.Skylights.RefItem)this, SourceGenerationContext.Default.MySkylightsRefItem);
                 case "com.atproto.server.refreshSession#RefreshSessionOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Server.RefreshSessionOutput)this, SourceGenerationContext.Default.ComAtprotoServerRefreshSessionOutput);
                 case "app.bsky.notification.registerPush#RegisterPushInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Notification.RegisterPushInput)this, SourceGenerationContext.Default.AppBskyNotificationRegisterPushInput);
-                case "my.skylights.rel":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.My.Skylights.Rel)this, SourceGenerationContext.Default.MySkylightsRel);
                 case "tools.ozone.signature.findRelatedAccounts#relatedAccount":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Signature.RelatedAccount)this, SourceGenerationContext.Default.ToolsOzoneSignatureRelatedAccount);
                 case "app.bsky.graph.defs#relationship":
@@ -727,10 +621,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Identity.ResolveHandleOutput)this, SourceGenerationContext.Default.ComAtprotoIdentityResolveHandleOutput);
                 case "com.atproto.server.revokeAppPassword#RevokeAppPasswordInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Server.RevokeAppPasswordInput)this, SourceGenerationContext.Default.ComAtprotoServerRevokeAppPasswordInput);
-                case "social.psky.richtext.facet#room":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Social.Psky.Richtext.Room)this, SourceGenerationContext.Default.SocialPskyRichtextRoom);
-                case "social.psky.chat.room":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Social.Psky.Chat.Room)this, SourceGenerationContext.Default.SocialPskyChatRoom);
                 case "app.bsky.actor.defs#savedFeed":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.SavedFeed)this, SourceGenerationContext.Default.AppBskyActorSavedFeed);
                 case "app.bsky.actor.defs#savedFeedsPref":
@@ -749,8 +639,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Unspecced.SearchActorsSkeletonOutput)this, SourceGenerationContext.Default.AppBskyUnspeccedSearchActorsSkeletonOutput);
                 case "app.bsky.actor.searchActorsTypeahead#SearchActorsTypeaheadOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Actor.SearchActorsTypeaheadOutput)this, SourceGenerationContext.Default.AppBskyActorSearchActorsTypeaheadOutput);
-                case "buzz.bookhive.searchBooks#SearchBooksOutput":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Buzz.Bookhive.SearchBooksOutput)this, SourceGenerationContext.Default.BuzzBookhiveSearchBooksOutput);
                 case "app.bsky.feed.searchPosts#SearchPostsOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Feed.SearchPostsOutput)this, SourceGenerationContext.Default.AppBskyFeedSearchPostsOutput);
                 case "app.bsky.unspecced.searchPostsSkeleton#SearchPostsSkeletonOutput":
@@ -805,30 +693,20 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Unspecced.SkeletonSearchPost)this, SourceGenerationContext.Default.AppBskyUnspeccedSkeletonSearchPost);
                 case "app.bsky.unspecced.defs#skeletonSearchStarterPack":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Unspecced.SkeletonSearchStarterPack)this, SourceGenerationContext.Default.AppBskyUnspeccedSkeletonSearchStarterPack);
-                case "link.pastesphere.snippet":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Link.Pastesphere.Snippet)this, SourceGenerationContext.Default.LinkPastesphereSnippet);
                 case "app.bsky.graph.starterpack":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.Starterpack)this, SourceGenerationContext.Default.AppBskyGraphStarterpack);
                 case "app.bsky.graph.defs#starterPackView":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.StarterPackView)this, SourceGenerationContext.Default.AppBskyGraphStarterPackView);
                 case "app.bsky.graph.defs#starterPackViewBasic":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.StarterPackViewBasic)this, SourceGenerationContext.Default.AppBskyGraphStarterPackViewBasic);
-                case "app.netlify.aniblue.status":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Netlify.Aniblue.Status)this, SourceGenerationContext.Default.AppNetlifyAniblueStatus);
-                case "fm.teal.alpha.actor.status":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.Status)this, SourceGenerationContext.Default.FmTealAlphaActorStatus);
                 case "com.atproto.admin.defs#statusAttr":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Admin.StatusAttr)this, SourceGenerationContext.Default.ComAtprotoAdminStatusAttr);
-                case "app.netlify.aniblue.status#status":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Netlify.Aniblue.StatusDef)this, SourceGenerationContext.Default.AppNetlifyAniblueStatusDef);
                 case "com.atproto.repo.strongRef":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Repo.StrongRef)this, SourceGenerationContext.Default.ComAtprotoRepoStrongRef);
                 case "tools.ozone.moderation.defs#subjectStatusView":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.SubjectStatusView)this, SourceGenerationContext.Default.ToolsOzoneModerationSubjectStatusView);
                 case "com.atproto.identity.submitPlcOperation#SubmitPlcOperationInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Identity.SubmitPlcOperationInput)this, SourceGenerationContext.Default.ComAtprotoIdentitySubmitPlcOperationInput);
-                case "ma.tokono.byov.subscription":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Ma.Tokono.Byov.Subscription)this, SourceGenerationContext.Default.MaTokonoByovSubscription);
                 case "app.bsky.unspecced.getTaggedSuggestions#suggestion":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Unspecced.Suggestion)this, SourceGenerationContext.Default.AppBskyUnspeccedSuggestion);
                 case "app.bsky.richtext.facet#tag":
@@ -849,8 +727,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Admin.ThreatSignature)this, SourceGenerationContext.Default.ComAtprotoAdminThreatSignature);
                 case "app.bsky.unspecced.defs#trendingTopic":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Unspecced.TrendingTopic)this, SourceGenerationContext.Default.AppBskyUnspeccedTrendingTopic);
-                case "blue.zio.atfile.meta#unknown":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Blue.Zio.Atfile.Unknown)this, SourceGenerationContext.Default.BlueZioAtfileUnknown);
                 case "app.bsky.graph.unmuteActor#UnmuteActorInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Graph.UnmuteActorInput)this, SourceGenerationContext.Default.AppBskyGraphUnmuteActorInput);
                 case "app.bsky.graph.unmuteActorList#UnmuteActorListInput":
@@ -891,8 +767,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Admin.UpdateSubjectStatusOutput)this, SourceGenerationContext.Default.ComAtprotoAdminUpdateSubjectStatusOutput);
                 case "tools.ozone.communication.updateTemplate#UpdateTemplateInput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Communication.UpdateTemplateInput)this, SourceGenerationContext.Default.ToolsOzoneCommunicationUpdateTemplateInput);
-                case "blue.zio.atfile.upload":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Blue.Zio.Atfile.Upload)this, SourceGenerationContext.Default.BlueZioAtfileUpload);
                 case "com.atproto.repo.uploadBlob#UploadBlobOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Com.Atproto.Repo.UploadBlobOutput)this, SourceGenerationContext.Default.ComAtprotoRepoUploadBlobOutput);
                 case "app.bsky.video.uploadVideo#UploadVideoOutput":
@@ -901,10 +775,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Setting.UpsertOptionInput)this, SourceGenerationContext.Default.ToolsOzoneSettingUpsertOptionInput);
                 case "tools.ozone.setting.upsertOption#UpsertOptionOutput":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Setting.UpsertOptionOutput)this, SourceGenerationContext.Default.ToolsOzoneSettingUpsertOptionOutput);
-                case "my.skylights.rel#urlItem":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.My.Skylights.UrlItem)this, SourceGenerationContext.Default.MySkylightsUrlItem);
-                case "ma.tokono.byov.video":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Ma.Tokono.Byov.Video)this, SourceGenerationContext.Default.MaTokonoByovVideo);
                 case "tools.ozone.moderation.defs#videoDetails":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.Tools.Ozone.Moderation.VideoDetails)this, SourceGenerationContext.Default.ToolsOzoneModerationVideoDetails);
                 case "app.bsky.embed.record#viewBlocked":
@@ -935,8 +805,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Embed.ViewRecordWithMedia)this, SourceGenerationContext.Default.AppBskyEmbedViewRecordWithMedia);
                 case "app.bsky.embed.video#view":
                     return JsonSerializer.Serialize((FishyFlip.Lexicon.App.Bsky.Embed.ViewVideo)this, SourceGenerationContext.Default.AppBskyEmbedViewVideo);
-                case "fyi.unravel.frontpage.vote":
-                    return JsonSerializer.Serialize((FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Vote)this, SourceGenerationContext.Default.FyiUnravelFrontpageVote);
                 case "blob":
                     return JsonSerializer.Serialize((FishyFlip.Models.Blob)this, SourceGenerationContext.Default.Blob);
                 default:
@@ -980,12 +848,8 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Server.AppPasswordDef)this, SourceGenerationContext.Default.ComAtprotoServerAppPasswordDef);
                 case "app.bsky.embed.defs#aspectRatio":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Embed.AspectRatio)this, SourceGenerationContext.Default.AppBskyEmbedAspectRatio);
-                case "com.shinolabs.pinksea.appViewDefs#author":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Author)this, SourceGenerationContext.Default.ComShinolabsPinkseaAuthor);
                 case "chat.bsky.convo.sendMessageBatch#batchItem":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Convo.BatchItem)this, SourceGenerationContext.Default.ChatBskyConvoBatchItem);
-                case "com.whtwnd.blog.defs#blobMetadata":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.BlobMetadata)this, SourceGenerationContext.Default.ComWhtwndBlogBlobMetadata);
                 case "tools.ozone.moderation.defs#blobView":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.BlobView)this, SourceGenerationContext.Default.ToolsOzoneModerationBlobView);
                 case "app.bsky.graph.block":
@@ -994,38 +858,18 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.BlockedAuthor)this, SourceGenerationContext.Default.AppBskyFeedBlockedAuthor);
                 case "app.bsky.feed.defs#blockedPost":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.BlockedPost)this, SourceGenerationContext.Default.AppBskyFeedBlockedPost);
-                case "com.whtwnd.blog.defs#blogEntry":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.BlogEntry)this, SourceGenerationContext.Default.ComWhtwndBlogBlogEntry);
-                case "blue.linkat.board":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Blue.Linkat.Board)this, SourceGenerationContext.Default.BlueLinkatBoard);
-                case "buzz.bookhive.book":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Buzz.Bookhive.Book)this, SourceGenerationContext.Default.BuzzBookhiveBook);
-                case "community.lexicon.bookmarks.bookmark":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Community.Lexicon.Bookmarks.Bookmark)this, SourceGenerationContext.Default.CommunityLexiconBookmarksBookmark);
-                case "blue.zio.atfile.finger#browser":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Blue.Zio.Atfile.Browser)this, SourceGenerationContext.Default.BlueZioAtfileBrowser);
                 case "app.bsky.actor.defs#bskyAppProgressGuide":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.BskyAppProgressGuide)this, SourceGenerationContext.Default.AppBskyActorBskyAppProgressGuide);
                 case "app.bsky.actor.defs#bskyAppStatePref":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.BskyAppStatePref)this, SourceGenerationContext.Default.AppBskyActorBskyAppStatePref);
-                case "buzz.bookhive.buzz":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Buzz.Bookhive.Buzz)this, SourceGenerationContext.Default.BuzzBookhiveBuzz);
                 case "app.bsky.richtext.facet#byteSlice":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Richtext.ByteSlice)this, SourceGenerationContext.Default.AppBskyRichtextByteSlice);
-                case "social.psky.richtext.facet#byteSlice":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Social.Psky.Richtext.ByteSlice)this, SourceGenerationContext.Default.SocialPskyRichtextByteSlice);
                 case "app.bsky.embed.video#caption":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Embed.Caption)this, SourceGenerationContext.Default.AppBskyEmbedCaption);
-                case "blue.linkat.board#card":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Blue.Linkat.Card)this, SourceGenerationContext.Default.BlueLinkatCard);
                 case "com.atproto.server.checkAccountStatus#CheckAccountStatusOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Server.CheckAccountStatusOutput)this, SourceGenerationContext.Default.ComAtprotoServerCheckAccountStatusOutput);
                 case "com.atproto.temp.checkSignupQueue#CheckSignupQueueOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Temp.CheckSignupQueueOutput)this, SourceGenerationContext.Default.ComAtprotoTempCheckSignupQueueOutput);
-                case "com.whtwnd.blog.defs#comment":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.Comment)this, SourceGenerationContext.Default.ComWhtwndBlogComment);
-                case "fyi.unravel.frontpage.comment":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Comment)this, SourceGenerationContext.Default.FyiUnravelFrontpageComment);
                 case "com.atproto.sync.subscribeRepos#commit":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Sync.Commit)this, SourceGenerationContext.Default.ComAtprotoSyncCommit);
                 case "com.atproto.repo.defs#commitMeta":
@@ -1126,16 +970,10 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.EmitEventInput)this, SourceGenerationContext.Default.ToolsOzoneModerationEmitEventInput);
                 case "com.atproto.admin.enableAccountInvites#EnableAccountInvitesInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Admin.EnableAccountInvitesInput)this, SourceGenerationContext.Default.ComAtprotoAdminEnableAccountInvitesInput);
-                case "com.whtwnd.blog.entry":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.Entry)this, SourceGenerationContext.Default.ComWhtwndBlogEntry);
                 case "app.bsky.embed.external#external":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Embed.External)this, SourceGenerationContext.Default.AppBskyEmbedExternal);
                 case "app.bsky.richtext.facet":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Richtext.Facet)this, SourceGenerationContext.Default.AppBskyRichtextFacet);
-                case "social.psky.richtext.facet":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Social.Psky.Richtext.Facet)this, SourceGenerationContext.Default.SocialPskyRichtextFacet);
-                case "fm.teal.alpha.actor.profile#featuredItem":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.FeaturedItem)this, SourceGenerationContext.Default.FmTealAlphaActorFeaturedItem);
                 case "app.bsky.feed.describeFeedGenerator#feed":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.Feed)this, SourceGenerationContext.Default.AppBskyFeedFeed);
                 case "app.bsky.graph.starterpack#feedItem":
@@ -1162,10 +1000,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Admin.GetAccountInfosOutput)this, SourceGenerationContext.Default.ComAtprotoAdminGetAccountInfosOutput);
                 case "com.atproto.server.getAccountInviteCodes#GetAccountInviteCodesOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Server.GetAccountInviteCodesOutput)this, SourceGenerationContext.Default.ComAtprotoServerGetAccountInviteCodesOutput);
-                case "community.lexicon.bookmarks.getActorBookmarks#GetActorBookmarksOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Community.Lexicon.Bookmarks.GetActorBookmarksOutput)this, SourceGenerationContext.Default.CommunityLexiconBookmarksGetActorBookmarksOutput);
-                case "fm.teal.alpha.feed.getActorFeed#GetActorFeedOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.GetActorFeedOutput)this, SourceGenerationContext.Default.FmTealAlphaFeedGetActorFeedOutput);
                 case "app.bsky.feed.getActorFeeds#GetActorFeedsOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.GetActorFeedsOutput)this, SourceGenerationContext.Default.AppBskyFeedGetActorFeedsOutput);
                 case "app.bsky.feed.getActorLikes#GetActorLikesOutput":
@@ -1176,12 +1010,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.GetActorStarterPacksOutput)this, SourceGenerationContext.Default.AppBskyGraphGetActorStarterPacksOutput);
                 case "app.bsky.feed.getAuthorFeed#GetAuthorFeedOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.GetAuthorFeedOutput)this, SourceGenerationContext.Default.AppBskyFeedGetAuthorFeedOutput);
-                case "com.shinolabs.pinksea.getAuthorFeed#GetAuthorFeedOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetAuthorFeedOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetAuthorFeedOutput);
-                case "com.whtwnd.blog.getAuthorPosts#GetAuthorPostsOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.GetAuthorPostsOutput)this, SourceGenerationContext.Default.ComWhtwndBlogGetAuthorPostsOutput);
-                case "com.shinolabs.pinksea.getAuthorReplies#GetAuthorRepliesOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetAuthorRepliesOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetAuthorRepliesOutput);
                 case "app.bsky.graph.getBlocks#GetBlocksOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.GetBlocksOutput)this, SourceGenerationContext.Default.AppBskyGraphGetBlocksOutput);
                 case "app.bsky.unspecced.getConfig#GetConfigOutput":
@@ -1192,8 +1020,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Convo.GetConvoForMembersOutput)this, SourceGenerationContext.Default.ChatBskyConvoGetConvoForMembersOutput);
                 case "chat.bsky.convo.getConvo#GetConvoOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Convo.GetConvoOutput)this, SourceGenerationContext.Default.ChatBskyConvoGetConvoOutput);
-                case "com.whtwnd.blog.getEntryMetadataByName#GetEntryMetadataByNameOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.GetEntryMetadataByNameOutput)this, SourceGenerationContext.Default.ComWhtwndBlogGetEntryMetadataByNameOutput);
                 case "app.bsky.feed.getFeedGenerator#GetFeedGeneratorOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.GetFeedGeneratorOutput)this, SourceGenerationContext.Default.AppBskyFeedGetFeedGeneratorOutput);
                 case "app.bsky.feed.getFeedGenerators#GetFeedGeneratorsOutput":
@@ -1206,10 +1032,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.GetFollowersOutput)this, SourceGenerationContext.Default.AppBskyGraphGetFollowersOutput);
                 case "app.bsky.graph.getFollows#GetFollowsOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.GetFollowsOutput)this, SourceGenerationContext.Default.AppBskyGraphGetFollowsOutput);
-                case "com.shinolabs.pinksea.getHandleFromDid#GetHandleFromDidOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetHandleFromDidOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetHandleFromDidOutput);
-                case "com.shinolabs.pinksea.getIdentity#GetIdentityOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetIdentityOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetIdentityOutput);
                 case "com.atproto.admin.getInviteCodes#GetInviteCodesOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Admin.GetInviteCodesOutput)this, SourceGenerationContext.Default.ComAtprotoAdminGetInviteCodesOutput);
                 case "app.bsky.video.getJobStatus#GetJobStatusOutput":
@@ -1232,20 +1054,12 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.GetListsOutput)this, SourceGenerationContext.Default.AppBskyGraphGetListsOutput);
                 case "chat.bsky.convo.getLog#GetLogOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Convo.GetLogOutput)this, SourceGenerationContext.Default.ChatBskyConvoGetLogOutput);
-                case "com.whtwnd.blog.getMentionsByEntry#GetMentionsByEntryOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.GetMentionsByEntryOutput)this, SourceGenerationContext.Default.ComWhtwndBlogGetMentionsByEntryOutput);
                 case "chat.bsky.moderation.getMessageContext#GetMessageContextOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Moderation.GetMessageContextOutput)this, SourceGenerationContext.Default.ChatBskyModerationGetMessageContextOutput);
                 case "chat.bsky.convo.getMessages#GetMessagesOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Convo.GetMessagesOutput)this, SourceGenerationContext.Default.ChatBskyConvoGetMessagesOutput);
                 case "app.bsky.graph.getMutes#GetMutesOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.GetMutesOutput)this, SourceGenerationContext.Default.AppBskyGraphGetMutesOutput);
-                case "com.shinolabs.pinksea.getOekaki#GetOekakiOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetOekakiOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetOekakiOutput);
-                case "com.shinolabs.pinksea.getParentForReply#GetParentForReplyOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetParentForReplyOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetParentForReplyOutput);
-                case "fm.teal.alpha.feed.getPlay#GetPlayOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.GetPlayOutput)this, SourceGenerationContext.Default.FmTealAlphaFeedGetPlayOutput);
                 case "app.bsky.unspecced.getPopularFeedGenerators#GetPopularFeedGeneratorsOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Unspecced.GetPopularFeedGeneratorsOutput)this, SourceGenerationContext.Default.AppBskyUnspeccedGetPopularFeedGeneratorsOutput);
                 case "app.bsky.feed.getPosts#GetPostsOutput":
@@ -1258,8 +1072,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.GetProfilesOutput)this, SourceGenerationContext.Default.AppBskyActorGetProfilesOutput);
                 case "app.bsky.feed.getQuotes#GetQuotesOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.GetQuotesOutput)this, SourceGenerationContext.Default.AppBskyFeedGetQuotesOutput);
-                case "com.shinolabs.pinksea.getRecent#GetRecentOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetRecentOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetRecentOutput);
                 case "com.atproto.identity.getRecommendedDidCredentials#GetRecommendedDidCredentialsOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Identity.GetRecommendedDidCredentialsOutput)this, SourceGenerationContext.Default.ComAtprotoIdentityGetRecommendedDidCredentialsOutput);
                 case "com.atproto.repo.getRecord#GetRecordOutput":
@@ -1294,8 +1106,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.GetSuggestionsOutput)this, SourceGenerationContext.Default.AppBskyActorGetSuggestionsOutput);
                 case "app.bsky.unspecced.getSuggestionsSkeleton#GetSuggestionsSkeletonOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Unspecced.GetSuggestionsSkeletonOutput)this, SourceGenerationContext.Default.AppBskyUnspeccedGetSuggestionsSkeletonOutput);
-                case "com.shinolabs.pinksea.getTagFeed#GetTagFeedOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetTagFeedOutput)this, SourceGenerationContext.Default.ComShinolabsPinkseaGetTagFeedOutput);
                 case "app.bsky.unspecced.getTaggedSuggestions#GetTaggedSuggestionsOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Unspecced.GetTaggedSuggestionsOutput)this, SourceGenerationContext.Default.AppBskyUnspeccedGetTaggedSuggestionsOutput);
                 case "app.bsky.feed.getTimeline#GetTimelineOutput":
@@ -1310,22 +1120,14 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Set.GetValuesOutput)this, SourceGenerationContext.Default.ToolsOzoneSetGetValuesOutput);
                 case "app.bsky.actor.defs#hiddenPostsPref":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.HiddenPostsPref)this, SourceGenerationContext.Default.AppBskyActorHiddenPostsPref);
-                case "buzz.bookhive.hiveBook":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Buzz.Bookhive.HiveBook)this, SourceGenerationContext.Default.BuzzBookhiveHiveBook);
-                case "com.shinolabs.pinksea.appViewDefs#hydratedOekaki":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.HydratedOekaki)this, SourceGenerationContext.Default.ComShinolabsPinkseaHydratedOekaki);
                 case "com.atproto.sync.subscribeRepos#identity":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Sync.Identity)this, SourceGenerationContext.Default.ComAtprotoSyncIdentity);
                 case "tools.ozone.moderation.defs#identityEvent":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.IdentityEvent)this, SourceGenerationContext.Default.ToolsOzoneModerationIdentityEvent);
                 case "app.bsky.embed.images#image":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Embed.Image)this, SourceGenerationContext.Default.AppBskyEmbedImage);
-                case "com.shinolabs.pinksea.oekaki#image":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Image)this, SourceGenerationContext.Default.ComShinolabsPinkseaImage);
                 case "tools.ozone.moderation.defs#imageDetails":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.ImageDetails)this, SourceGenerationContext.Default.ToolsOzoneModerationImageDetails);
-                case "com.shinolabs.pinksea.oekaki#imageLink":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.ImageLink)this, SourceGenerationContext.Default.ComShinolabsPinkseaImageLink);
                 case "com.atproto.label.subscribeLabels#info":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Label.Info)this, SourceGenerationContext.Default.ComAtprotoLabelInfo);
                 case "com.atproto.sync.subscribeRepos#info":
@@ -1372,8 +1174,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.LikeDef)this, SourceGenerationContext.Default.AppBskyFeedLikeDef);
                 case "app.bsky.richtext.facet#link":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Richtext.Link)this, SourceGenerationContext.Default.AppBskyRichtextLink);
-                case "social.psky.richtext.facet#link":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Social.Psky.Richtext.Link)this, SourceGenerationContext.Default.SocialPskyRichtextLink);
                 case "app.bsky.feed.describeFeedGenerator#links":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.Links)this, SourceGenerationContext.Default.AppBskyFeedLinks);
                 case "com.atproto.server.describeServer#links":
@@ -1414,8 +1214,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.ListViewBasic)this, SourceGenerationContext.Default.AppBskyGraphListViewBasic);
                 case "app.bsky.graph.defs#listViewerState":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.ListViewerState)this, SourceGenerationContext.Default.AppBskyGraphListViewerState);
-                case "blue.zio.atfile.lock":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Blue.Zio.Atfile.Lock)this, SourceGenerationContext.Default.BlueZioAtfileLock);
                 case "chat.bsky.convo.defs#logBeginConvo":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Convo.LogBeginConvo)this, SourceGenerationContext.Default.ChatBskyConvoLogBeginConvo);
                 case "chat.bsky.convo.defs#logCreateMessage":
@@ -1424,18 +1222,12 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Convo.LogDeleteMessage)this, SourceGenerationContext.Default.ChatBskyConvoLogDeleteMessage);
                 case "chat.bsky.convo.defs#logLeaveConvo":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Convo.LogLeaveConvo)this, SourceGenerationContext.Default.ChatBskyConvoLogLeaveConvo);
-                case "blue.zio.atfile.finger#machine":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Blue.Zio.Atfile.Machine)this, SourceGenerationContext.Default.BlueZioAtfileMachine);
                 case "tools.ozone.team.defs#member":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Team.Member)this, SourceGenerationContext.Default.ToolsOzoneTeamMember);
                 case "app.bsky.richtext.facet#mention":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Richtext.Mention)this, SourceGenerationContext.Default.AppBskyRichtextMention);
-                case "social.psky.richtext.facet#mention":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Social.Psky.Richtext.Mention)this, SourceGenerationContext.Default.SocialPskyRichtextMention);
                 case "app.bsky.feed.threadgate#mentionRule":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.MentionRule)this, SourceGenerationContext.Default.AppBskyFeedMentionRule);
-                case "social.psky.chat.message":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Social.Psky.Chat.Message)this, SourceGenerationContext.Default.SocialPskyChatMessage);
                 case "chat.bsky.convo.defs#messageInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Chat.Bsky.Convo.MessageInput)this, SourceGenerationContext.Default.ChatBskyConvoMessageInput);
                 case "chat.bsky.convo.defs#messageRef":
@@ -1484,8 +1276,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.ModEventView)this, SourceGenerationContext.Default.ToolsOzoneModerationModEventView);
                 case "tools.ozone.moderation.defs#modEventViewDetail":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.ModEventViewDetail)this, SourceGenerationContext.Default.ToolsOzoneModerationModEventViewDetail);
-                case "social.psky.chat.room#modlistRef":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Social.Psky.Chat.ModlistRef)this, SourceGenerationContext.Default.SocialPskyChatModlistRef);
                 case "app.bsky.graph.muteActor#MuteActorInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.MuteActorInput)this, SourceGenerationContext.Default.AppBskyGraphMuteActorInput);
                 case "app.bsky.graph.muteActorList#MuteActorListInput":
@@ -1500,50 +1290,28 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.MutedWordsPref)this, SourceGenerationContext.Default.AppBskyActorMutedWordsPref);
                 case "app.bsky.graph.muteThread#MuteThreadInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.MuteThreadInput)this, SourceGenerationContext.Default.AppBskyGraphMuteThreadInput);
-                case "my.skylights.rel#note":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.My.Skylights.Note)this, SourceGenerationContext.Default.MySkylightsNote);
                 case "app.bsky.graph.defs#notFoundActor":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.NotFoundActor)this, SourceGenerationContext.Default.AppBskyGraphNotFoundActor);
                 case "app.bsky.feed.defs#notFoundPost":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.NotFoundPost)this, SourceGenerationContext.Default.AppBskyFeedNotFoundPost);
                 case "app.bsky.notification.listNotifications#notification":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Notification.Notification)this, SourceGenerationContext.Default.AppBskyNotificationNotification);
-                case "com.whtwnd.blog.notifyOfNewEntry#NotifyOfNewEntryInput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.NotifyOfNewEntryInput)this, SourceGenerationContext.Default.ComWhtwndBlogNotifyOfNewEntryInput);
-                case "com.whtwnd.blog.notifyOfNewEntry#NotifyOfNewEntryOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.NotifyOfNewEntryOutput)this, SourceGenerationContext.Default.ComWhtwndBlogNotifyOfNewEntryOutput);
                 case "com.atproto.sync.notifyOfUpdate#NotifyOfUpdateInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Sync.NotifyOfUpdateInput)this, SourceGenerationContext.Default.ComAtprotoSyncNotifyOfUpdateInput);
                 case "app.bsky.actor.defs#nux":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.Nux)this, SourceGenerationContext.Default.AppBskyActorNux);
-                case "com.shinolabs.pinksea.oekaki":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Oekaki)this, SourceGenerationContext.Default.ComShinolabsPinkseaOekaki);
-                case "com.shinolabs.pinksea.appViewDefs#oekakiTombstone":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Shinolabs.Pinksea.OekakiTombstone)this, SourceGenerationContext.Default.ComShinolabsPinkseaOekakiTombstone);
-                case "com.whtwnd.blog.defs#ogp":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Whtwnd.Blog.Ogp)this, SourceGenerationContext.Default.ComWhtwndBlogOgp);
                 case "tools.ozone.setting.defs#option":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Setting.Option)this, SourceGenerationContext.Default.ToolsOzoneSettingOption);
                 case "app.bsky.actor.defs#personalDetailsPref":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.PersonalDetailsPref)this, SourceGenerationContext.Default.AppBskyActorPersonalDetailsPref);
-                case "fm.teal.alpha.feed.play":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.Play)this, SourceGenerationContext.Default.FmTealAlphaFeedPlay);
-                case "fm.teal.alpha.feed.defs#playView":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.PlayView)this, SourceGenerationContext.Default.FmTealAlphaFeedPlayView);
                 case "app.bsky.feed.post":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.Post)this, SourceGenerationContext.Default.AppBskyFeedPost);
-                case "fyi.unravel.frontpage.post":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Post)this, SourceGenerationContext.Default.FyiUnravelFrontpagePost);
                 case "app.bsky.feed.postgate":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.Postgate)this, SourceGenerationContext.Default.AppBskyFeedPostgate);
                 case "app.bsky.feed.defs#postView":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.PostView)this, SourceGenerationContext.Default.AppBskyFeedPostView);
                 case "app.bsky.actor.profile":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.Profile)this, SourceGenerationContext.Default.AppBskyActorProfile);
-                case "social.psky.actor.profile":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Social.Psky.Actor.Profile)this, SourceGenerationContext.Default.SocialPskyActorProfile);
-                case "fm.teal.alpha.actor.profile":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.Profile)this, SourceGenerationContext.Default.FmTealAlphaActorProfile);
                 case "app.bsky.actor.defs#profileAssociated":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.ProfileAssociated)this, SourceGenerationContext.Default.AppBskyActorProfileAssociated);
                 case "app.bsky.actor.defs#profileAssociatedChat":
@@ -1572,8 +1340,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Set.QuerySetsOutput)this, SourceGenerationContext.Default.ToolsOzoneSetQuerySetsOutput);
                 case "tools.ozone.moderation.queryStatuses#QueryStatusesOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.QueryStatusesOutput)this, SourceGenerationContext.Default.ToolsOzoneModerationQueryStatusesOutput);
-                case "my.skylights.rel#rating":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.My.Skylights.Rating)this, SourceGenerationContext.Default.MySkylightsRating);
                 case "app.bsky.feed.defs#reasonPin":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.ReasonPin)this, SourceGenerationContext.Default.AppBskyFeedReasonPin);
                 case "app.bsky.feed.defs#reasonRepost":
@@ -1596,14 +1362,10 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.RecordViewNotFound)this, SourceGenerationContext.Default.ToolsOzoneModerationRecordViewNotFound);
                 case "app.bsky.embed.recordWithMedia":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Embed.RecordWithMedia)this, SourceGenerationContext.Default.AppBskyEmbedRecordWithMedia);
-                case "my.skylights.rel#refItem":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.My.Skylights.RefItem)this, SourceGenerationContext.Default.MySkylightsRefItem);
                 case "com.atproto.server.refreshSession#RefreshSessionOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Server.RefreshSessionOutput)this, SourceGenerationContext.Default.ComAtprotoServerRefreshSessionOutput);
                 case "app.bsky.notification.registerPush#RegisterPushInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Notification.RegisterPushInput)this, SourceGenerationContext.Default.AppBskyNotificationRegisterPushInput);
-                case "my.skylights.rel":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.My.Skylights.Rel)this, SourceGenerationContext.Default.MySkylightsRel);
                 case "tools.ozone.signature.findRelatedAccounts#relatedAccount":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Signature.RelatedAccount)this, SourceGenerationContext.Default.ToolsOzoneSignatureRelatedAccount);
                 case "app.bsky.graph.defs#relationship":
@@ -1650,10 +1412,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Identity.ResolveHandleOutput)this, SourceGenerationContext.Default.ComAtprotoIdentityResolveHandleOutput);
                 case "com.atproto.server.revokeAppPassword#RevokeAppPasswordInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Server.RevokeAppPasswordInput)this, SourceGenerationContext.Default.ComAtprotoServerRevokeAppPasswordInput);
-                case "social.psky.richtext.facet#room":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Social.Psky.Richtext.Room)this, SourceGenerationContext.Default.SocialPskyRichtextRoom);
-                case "social.psky.chat.room":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Social.Psky.Chat.Room)this, SourceGenerationContext.Default.SocialPskyChatRoom);
                 case "app.bsky.actor.defs#savedFeed":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.SavedFeed)this, SourceGenerationContext.Default.AppBskyActorSavedFeed);
                 case "app.bsky.actor.defs#savedFeedsPref":
@@ -1672,8 +1430,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Unspecced.SearchActorsSkeletonOutput)this, SourceGenerationContext.Default.AppBskyUnspeccedSearchActorsSkeletonOutput);
                 case "app.bsky.actor.searchActorsTypeahead#SearchActorsTypeaheadOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Actor.SearchActorsTypeaheadOutput)this, SourceGenerationContext.Default.AppBskyActorSearchActorsTypeaheadOutput);
-                case "buzz.bookhive.searchBooks#SearchBooksOutput":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Buzz.Bookhive.SearchBooksOutput)this, SourceGenerationContext.Default.BuzzBookhiveSearchBooksOutput);
                 case "app.bsky.feed.searchPosts#SearchPostsOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Feed.SearchPostsOutput)this, SourceGenerationContext.Default.AppBskyFeedSearchPostsOutput);
                 case "app.bsky.unspecced.searchPostsSkeleton#SearchPostsSkeletonOutput":
@@ -1728,30 +1484,20 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Unspecced.SkeletonSearchPost)this, SourceGenerationContext.Default.AppBskyUnspeccedSkeletonSearchPost);
                 case "app.bsky.unspecced.defs#skeletonSearchStarterPack":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Unspecced.SkeletonSearchStarterPack)this, SourceGenerationContext.Default.AppBskyUnspeccedSkeletonSearchStarterPack);
-                case "link.pastesphere.snippet":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Link.Pastesphere.Snippet)this, SourceGenerationContext.Default.LinkPastesphereSnippet);
                 case "app.bsky.graph.starterpack":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.Starterpack)this, SourceGenerationContext.Default.AppBskyGraphStarterpack);
                 case "app.bsky.graph.defs#starterPackView":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.StarterPackView)this, SourceGenerationContext.Default.AppBskyGraphStarterPackView);
                 case "app.bsky.graph.defs#starterPackViewBasic":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.StarterPackViewBasic)this, SourceGenerationContext.Default.AppBskyGraphStarterPackViewBasic);
-                case "app.netlify.aniblue.status":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Netlify.Aniblue.Status)this, SourceGenerationContext.Default.AppNetlifyAniblueStatus);
-                case "fm.teal.alpha.actor.status":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.Status)this, SourceGenerationContext.Default.FmTealAlphaActorStatus);
                 case "com.atproto.admin.defs#statusAttr":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Admin.StatusAttr)this, SourceGenerationContext.Default.ComAtprotoAdminStatusAttr);
-                case "app.netlify.aniblue.status#status":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Netlify.Aniblue.StatusDef)this, SourceGenerationContext.Default.AppNetlifyAniblueStatusDef);
                 case "com.atproto.repo.strongRef":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Repo.StrongRef)this, SourceGenerationContext.Default.ComAtprotoRepoStrongRef);
                 case "tools.ozone.moderation.defs#subjectStatusView":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.SubjectStatusView)this, SourceGenerationContext.Default.ToolsOzoneModerationSubjectStatusView);
                 case "com.atproto.identity.submitPlcOperation#SubmitPlcOperationInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Identity.SubmitPlcOperationInput)this, SourceGenerationContext.Default.ComAtprotoIdentitySubmitPlcOperationInput);
-                case "ma.tokono.byov.subscription":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Ma.Tokono.Byov.Subscription)this, SourceGenerationContext.Default.MaTokonoByovSubscription);
                 case "app.bsky.unspecced.getTaggedSuggestions#suggestion":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Unspecced.Suggestion)this, SourceGenerationContext.Default.AppBskyUnspeccedSuggestion);
                 case "app.bsky.richtext.facet#tag":
@@ -1772,8 +1518,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Admin.ThreatSignature)this, SourceGenerationContext.Default.ComAtprotoAdminThreatSignature);
                 case "app.bsky.unspecced.defs#trendingTopic":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Unspecced.TrendingTopic)this, SourceGenerationContext.Default.AppBskyUnspeccedTrendingTopic);
-                case "blue.zio.atfile.meta#unknown":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Blue.Zio.Atfile.Unknown)this, SourceGenerationContext.Default.BlueZioAtfileUnknown);
                 case "app.bsky.graph.unmuteActor#UnmuteActorInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Graph.UnmuteActorInput)this, SourceGenerationContext.Default.AppBskyGraphUnmuteActorInput);
                 case "app.bsky.graph.unmuteActorList#UnmuteActorListInput":
@@ -1814,8 +1558,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Admin.UpdateSubjectStatusOutput)this, SourceGenerationContext.Default.ComAtprotoAdminUpdateSubjectStatusOutput);
                 case "tools.ozone.communication.updateTemplate#UpdateTemplateInput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Communication.UpdateTemplateInput)this, SourceGenerationContext.Default.ToolsOzoneCommunicationUpdateTemplateInput);
-                case "blue.zio.atfile.upload":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Blue.Zio.Atfile.Upload)this, SourceGenerationContext.Default.BlueZioAtfileUpload);
                 case "com.atproto.repo.uploadBlob#UploadBlobOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Com.Atproto.Repo.UploadBlobOutput)this, SourceGenerationContext.Default.ComAtprotoRepoUploadBlobOutput);
                 case "app.bsky.video.uploadVideo#UploadVideoOutput":
@@ -1824,10 +1566,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Setting.UpsertOptionInput)this, SourceGenerationContext.Default.ToolsOzoneSettingUpsertOptionInput);
                 case "tools.ozone.setting.upsertOption#UpsertOptionOutput":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Setting.UpsertOptionOutput)this, SourceGenerationContext.Default.ToolsOzoneSettingUpsertOptionOutput);
-                case "my.skylights.rel#urlItem":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.My.Skylights.UrlItem)this, SourceGenerationContext.Default.MySkylightsUrlItem);
-                case "ma.tokono.byov.video":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Ma.Tokono.Byov.Video)this, SourceGenerationContext.Default.MaTokonoByovVideo);
                 case "tools.ozone.moderation.defs#videoDetails":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Tools.Ozone.Moderation.VideoDetails)this, SourceGenerationContext.Default.ToolsOzoneModerationVideoDetails);
                 case "app.bsky.embed.record#viewBlocked":
@@ -1858,8 +1596,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Embed.ViewRecordWithMedia)this, SourceGenerationContext.Default.AppBskyEmbedViewRecordWithMedia);
                 case "app.bsky.embed.video#view":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.App.Bsky.Embed.ViewVideo)this, SourceGenerationContext.Default.AppBskyEmbedViewVideo);
-                case "fyi.unravel.frontpage.vote":
-                    return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Vote)this, SourceGenerationContext.Default.FyiUnravelFrontpageVote);
                 case "blob":
                     return JsonSerializer.SerializeToUtf8Bytes((FishyFlip.Models.Blob)this, SourceGenerationContext.Default.Blob);
                 default:
@@ -1902,12 +1638,8 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Server.AppPasswordDef>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Server.AppPasswordDef>)SourceGenerationContext.Default.ComAtprotoServerAppPasswordDef);
                 case "app.bsky.embed.defs#aspectRatio":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Embed.AspectRatio>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Embed.AspectRatio>)SourceGenerationContext.Default.AppBskyEmbedAspectRatio);
-                case "com.shinolabs.pinksea.appViewDefs#author":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Author>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Author>)SourceGenerationContext.Default.ComShinolabsPinkseaAuthor);
                 case "chat.bsky.convo.sendMessageBatch#batchItem":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Convo.BatchItem>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Convo.BatchItem>)SourceGenerationContext.Default.ChatBskyConvoBatchItem);
-                case "com.whtwnd.blog.defs#blobMetadata":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.BlobMetadata>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.BlobMetadata>)SourceGenerationContext.Default.ComWhtwndBlogBlobMetadata);
                 case "tools.ozone.moderation.defs#blobView":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.BlobView>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.BlobView>)SourceGenerationContext.Default.ToolsOzoneModerationBlobView);
                 case "app.bsky.graph.block":
@@ -1916,38 +1648,18 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.BlockedAuthor>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.BlockedAuthor>)SourceGenerationContext.Default.AppBskyFeedBlockedAuthor);
                 case "app.bsky.feed.defs#blockedPost":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.BlockedPost>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.BlockedPost>)SourceGenerationContext.Default.AppBskyFeedBlockedPost);
-                case "com.whtwnd.blog.defs#blogEntry":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.BlogEntry>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.BlogEntry>)SourceGenerationContext.Default.ComWhtwndBlogBlogEntry);
-                case "blue.linkat.board":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Blue.Linkat.Board>(text, (JsonTypeInfo<FishyFlip.Lexicon.Blue.Linkat.Board>)SourceGenerationContext.Default.BlueLinkatBoard);
-                case "buzz.bookhive.book":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Buzz.Bookhive.Book>(text, (JsonTypeInfo<FishyFlip.Lexicon.Buzz.Bookhive.Book>)SourceGenerationContext.Default.BuzzBookhiveBook);
-                case "community.lexicon.bookmarks.bookmark":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Community.Lexicon.Bookmarks.Bookmark>(text, (JsonTypeInfo<FishyFlip.Lexicon.Community.Lexicon.Bookmarks.Bookmark>)SourceGenerationContext.Default.CommunityLexiconBookmarksBookmark);
-                case "blue.zio.atfile.finger#browser":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Blue.Zio.Atfile.Browser>(text, (JsonTypeInfo<FishyFlip.Lexicon.Blue.Zio.Atfile.Browser>)SourceGenerationContext.Default.BlueZioAtfileBrowser);
                 case "app.bsky.actor.defs#bskyAppProgressGuide":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.BskyAppProgressGuide>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.BskyAppProgressGuide>)SourceGenerationContext.Default.AppBskyActorBskyAppProgressGuide);
                 case "app.bsky.actor.defs#bskyAppStatePref":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.BskyAppStatePref>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.BskyAppStatePref>)SourceGenerationContext.Default.AppBskyActorBskyAppStatePref);
-                case "buzz.bookhive.buzz":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Buzz.Bookhive.Buzz>(text, (JsonTypeInfo<FishyFlip.Lexicon.Buzz.Bookhive.Buzz>)SourceGenerationContext.Default.BuzzBookhiveBuzz);
                 case "app.bsky.richtext.facet#byteSlice":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Richtext.ByteSlice>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Richtext.ByteSlice>)SourceGenerationContext.Default.AppBskyRichtextByteSlice);
-                case "social.psky.richtext.facet#byteSlice":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Social.Psky.Richtext.ByteSlice>(text, (JsonTypeInfo<FishyFlip.Lexicon.Social.Psky.Richtext.ByteSlice>)SourceGenerationContext.Default.SocialPskyRichtextByteSlice);
                 case "app.bsky.embed.video#caption":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Embed.Caption>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Embed.Caption>)SourceGenerationContext.Default.AppBskyEmbedCaption);
-                case "blue.linkat.board#card":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Blue.Linkat.Card>(text, (JsonTypeInfo<FishyFlip.Lexicon.Blue.Linkat.Card>)SourceGenerationContext.Default.BlueLinkatCard);
                 case "com.atproto.server.checkAccountStatus#CheckAccountStatusOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Server.CheckAccountStatusOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Server.CheckAccountStatusOutput>)SourceGenerationContext.Default.ComAtprotoServerCheckAccountStatusOutput);
                 case "com.atproto.temp.checkSignupQueue#CheckSignupQueueOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Temp.CheckSignupQueueOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Temp.CheckSignupQueueOutput>)SourceGenerationContext.Default.ComAtprotoTempCheckSignupQueueOutput);
-                case "com.whtwnd.blog.defs#comment":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.Comment>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.Comment>)SourceGenerationContext.Default.ComWhtwndBlogComment);
-                case "fyi.unravel.frontpage.comment":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Comment>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Comment>)SourceGenerationContext.Default.FyiUnravelFrontpageComment);
                 case "com.atproto.sync.subscribeRepos#commit":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Sync.Commit>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Sync.Commit>)SourceGenerationContext.Default.ComAtprotoSyncCommit);
                 case "com.atproto.repo.defs#commitMeta":
@@ -2048,16 +1760,10 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.EmitEventInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.EmitEventInput>)SourceGenerationContext.Default.ToolsOzoneModerationEmitEventInput);
                 case "com.atproto.admin.enableAccountInvites#EnableAccountInvitesInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Admin.EnableAccountInvitesInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Admin.EnableAccountInvitesInput>)SourceGenerationContext.Default.ComAtprotoAdminEnableAccountInvitesInput);
-                case "com.whtwnd.blog.entry":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.Entry>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.Entry>)SourceGenerationContext.Default.ComWhtwndBlogEntry);
                 case "app.bsky.embed.external#external":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Embed.External>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Embed.External>)SourceGenerationContext.Default.AppBskyEmbedExternal);
                 case "app.bsky.richtext.facet":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Richtext.Facet>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Richtext.Facet>)SourceGenerationContext.Default.AppBskyRichtextFacet);
-                case "social.psky.richtext.facet":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Social.Psky.Richtext.Facet>(text, (JsonTypeInfo<FishyFlip.Lexicon.Social.Psky.Richtext.Facet>)SourceGenerationContext.Default.SocialPskyRichtextFacet);
-                case "fm.teal.alpha.actor.profile#featuredItem":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.FeaturedItem>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.FeaturedItem>)SourceGenerationContext.Default.FmTealAlphaActorFeaturedItem);
                 case "app.bsky.feed.describeFeedGenerator#feed":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.Feed>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.Feed>)SourceGenerationContext.Default.AppBskyFeedFeed);
                 case "app.bsky.graph.starterpack#feedItem":
@@ -2084,10 +1790,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Admin.GetAccountInfosOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Admin.GetAccountInfosOutput>)SourceGenerationContext.Default.ComAtprotoAdminGetAccountInfosOutput);
                 case "com.atproto.server.getAccountInviteCodes#GetAccountInviteCodesOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Server.GetAccountInviteCodesOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Server.GetAccountInviteCodesOutput>)SourceGenerationContext.Default.ComAtprotoServerGetAccountInviteCodesOutput);
-                case "community.lexicon.bookmarks.getActorBookmarks#GetActorBookmarksOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Community.Lexicon.Bookmarks.GetActorBookmarksOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Community.Lexicon.Bookmarks.GetActorBookmarksOutput>)SourceGenerationContext.Default.CommunityLexiconBookmarksGetActorBookmarksOutput);
-                case "fm.teal.alpha.feed.getActorFeed#GetActorFeedOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.GetActorFeedOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.GetActorFeedOutput>)SourceGenerationContext.Default.FmTealAlphaFeedGetActorFeedOutput);
                 case "app.bsky.feed.getActorFeeds#GetActorFeedsOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.GetActorFeedsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.GetActorFeedsOutput>)SourceGenerationContext.Default.AppBskyFeedGetActorFeedsOutput);
                 case "app.bsky.feed.getActorLikes#GetActorLikesOutput":
@@ -2098,12 +1800,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.GetActorStarterPacksOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.GetActorStarterPacksOutput>)SourceGenerationContext.Default.AppBskyGraphGetActorStarterPacksOutput);
                 case "app.bsky.feed.getAuthorFeed#GetAuthorFeedOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.GetAuthorFeedOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.GetAuthorFeedOutput>)SourceGenerationContext.Default.AppBskyFeedGetAuthorFeedOutput);
-                case "com.shinolabs.pinksea.getAuthorFeed#GetAuthorFeedOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetAuthorFeedOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetAuthorFeedOutput>)SourceGenerationContext.Default.ComShinolabsPinkseaGetAuthorFeedOutput);
-                case "com.whtwnd.blog.getAuthorPosts#GetAuthorPostsOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.GetAuthorPostsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.GetAuthorPostsOutput>)SourceGenerationContext.Default.ComWhtwndBlogGetAuthorPostsOutput);
-                case "com.shinolabs.pinksea.getAuthorReplies#GetAuthorRepliesOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetAuthorRepliesOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetAuthorRepliesOutput>)SourceGenerationContext.Default.ComShinolabsPinkseaGetAuthorRepliesOutput);
                 case "app.bsky.graph.getBlocks#GetBlocksOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.GetBlocksOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.GetBlocksOutput>)SourceGenerationContext.Default.AppBskyGraphGetBlocksOutput);
                 case "app.bsky.unspecced.getConfig#GetConfigOutput":
@@ -2114,8 +1810,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Convo.GetConvoForMembersOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Convo.GetConvoForMembersOutput>)SourceGenerationContext.Default.ChatBskyConvoGetConvoForMembersOutput);
                 case "chat.bsky.convo.getConvo#GetConvoOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Convo.GetConvoOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Convo.GetConvoOutput>)SourceGenerationContext.Default.ChatBskyConvoGetConvoOutput);
-                case "com.whtwnd.blog.getEntryMetadataByName#GetEntryMetadataByNameOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.GetEntryMetadataByNameOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.GetEntryMetadataByNameOutput>)SourceGenerationContext.Default.ComWhtwndBlogGetEntryMetadataByNameOutput);
                 case "app.bsky.feed.getFeedGenerator#GetFeedGeneratorOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.GetFeedGeneratorOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.GetFeedGeneratorOutput>)SourceGenerationContext.Default.AppBskyFeedGetFeedGeneratorOutput);
                 case "app.bsky.feed.getFeedGenerators#GetFeedGeneratorsOutput":
@@ -2128,10 +1822,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.GetFollowersOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.GetFollowersOutput>)SourceGenerationContext.Default.AppBskyGraphGetFollowersOutput);
                 case "app.bsky.graph.getFollows#GetFollowsOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.GetFollowsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.GetFollowsOutput>)SourceGenerationContext.Default.AppBskyGraphGetFollowsOutput);
-                case "com.shinolabs.pinksea.getHandleFromDid#GetHandleFromDidOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetHandleFromDidOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetHandleFromDidOutput>)SourceGenerationContext.Default.ComShinolabsPinkseaGetHandleFromDidOutput);
-                case "com.shinolabs.pinksea.getIdentity#GetIdentityOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetIdentityOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetIdentityOutput>)SourceGenerationContext.Default.ComShinolabsPinkseaGetIdentityOutput);
                 case "com.atproto.admin.getInviteCodes#GetInviteCodesOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Admin.GetInviteCodesOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Admin.GetInviteCodesOutput>)SourceGenerationContext.Default.ComAtprotoAdminGetInviteCodesOutput);
                 case "app.bsky.video.getJobStatus#GetJobStatusOutput":
@@ -2154,20 +1844,12 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.GetListsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.GetListsOutput>)SourceGenerationContext.Default.AppBskyGraphGetListsOutput);
                 case "chat.bsky.convo.getLog#GetLogOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Convo.GetLogOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Convo.GetLogOutput>)SourceGenerationContext.Default.ChatBskyConvoGetLogOutput);
-                case "com.whtwnd.blog.getMentionsByEntry#GetMentionsByEntryOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.GetMentionsByEntryOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.GetMentionsByEntryOutput>)SourceGenerationContext.Default.ComWhtwndBlogGetMentionsByEntryOutput);
                 case "chat.bsky.moderation.getMessageContext#GetMessageContextOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Moderation.GetMessageContextOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Moderation.GetMessageContextOutput>)SourceGenerationContext.Default.ChatBskyModerationGetMessageContextOutput);
                 case "chat.bsky.convo.getMessages#GetMessagesOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Convo.GetMessagesOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Convo.GetMessagesOutput>)SourceGenerationContext.Default.ChatBskyConvoGetMessagesOutput);
                 case "app.bsky.graph.getMutes#GetMutesOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.GetMutesOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.GetMutesOutput>)SourceGenerationContext.Default.AppBskyGraphGetMutesOutput);
-                case "com.shinolabs.pinksea.getOekaki#GetOekakiOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetOekakiOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetOekakiOutput>)SourceGenerationContext.Default.ComShinolabsPinkseaGetOekakiOutput);
-                case "com.shinolabs.pinksea.getParentForReply#GetParentForReplyOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetParentForReplyOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetParentForReplyOutput>)SourceGenerationContext.Default.ComShinolabsPinkseaGetParentForReplyOutput);
-                case "fm.teal.alpha.feed.getPlay#GetPlayOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.GetPlayOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.GetPlayOutput>)SourceGenerationContext.Default.FmTealAlphaFeedGetPlayOutput);
                 case "app.bsky.unspecced.getPopularFeedGenerators#GetPopularFeedGeneratorsOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Unspecced.GetPopularFeedGeneratorsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Unspecced.GetPopularFeedGeneratorsOutput>)SourceGenerationContext.Default.AppBskyUnspeccedGetPopularFeedGeneratorsOutput);
                 case "app.bsky.feed.getPosts#GetPostsOutput":
@@ -2180,8 +1862,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.GetProfilesOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.GetProfilesOutput>)SourceGenerationContext.Default.AppBskyActorGetProfilesOutput);
                 case "app.bsky.feed.getQuotes#GetQuotesOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.GetQuotesOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.GetQuotesOutput>)SourceGenerationContext.Default.AppBskyFeedGetQuotesOutput);
-                case "com.shinolabs.pinksea.getRecent#GetRecentOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetRecentOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetRecentOutput>)SourceGenerationContext.Default.ComShinolabsPinkseaGetRecentOutput);
                 case "com.atproto.identity.getRecommendedDidCredentials#GetRecommendedDidCredentialsOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Identity.GetRecommendedDidCredentialsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Identity.GetRecommendedDidCredentialsOutput>)SourceGenerationContext.Default.ComAtprotoIdentityGetRecommendedDidCredentialsOutput);
                 case "com.atproto.repo.getRecord#GetRecordOutput":
@@ -2216,8 +1896,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.GetSuggestionsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.GetSuggestionsOutput>)SourceGenerationContext.Default.AppBskyActorGetSuggestionsOutput);
                 case "app.bsky.unspecced.getSuggestionsSkeleton#GetSuggestionsSkeletonOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Unspecced.GetSuggestionsSkeletonOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Unspecced.GetSuggestionsSkeletonOutput>)SourceGenerationContext.Default.AppBskyUnspeccedGetSuggestionsSkeletonOutput);
-                case "com.shinolabs.pinksea.getTagFeed#GetTagFeedOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetTagFeedOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.GetTagFeedOutput>)SourceGenerationContext.Default.ComShinolabsPinkseaGetTagFeedOutput);
                 case "app.bsky.unspecced.getTaggedSuggestions#GetTaggedSuggestionsOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Unspecced.GetTaggedSuggestionsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Unspecced.GetTaggedSuggestionsOutput>)SourceGenerationContext.Default.AppBskyUnspeccedGetTaggedSuggestionsOutput);
                 case "app.bsky.feed.getTimeline#GetTimelineOutput":
@@ -2232,22 +1910,14 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Set.GetValuesOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Set.GetValuesOutput>)SourceGenerationContext.Default.ToolsOzoneSetGetValuesOutput);
                 case "app.bsky.actor.defs#hiddenPostsPref":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.HiddenPostsPref>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.HiddenPostsPref>)SourceGenerationContext.Default.AppBskyActorHiddenPostsPref);
-                case "buzz.bookhive.hiveBook":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Buzz.Bookhive.HiveBook>(text, (JsonTypeInfo<FishyFlip.Lexicon.Buzz.Bookhive.HiveBook>)SourceGenerationContext.Default.BuzzBookhiveHiveBook);
-                case "com.shinolabs.pinksea.appViewDefs#hydratedOekaki":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.HydratedOekaki>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.HydratedOekaki>)SourceGenerationContext.Default.ComShinolabsPinkseaHydratedOekaki);
                 case "com.atproto.sync.subscribeRepos#identity":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Sync.Identity>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Sync.Identity>)SourceGenerationContext.Default.ComAtprotoSyncIdentity);
                 case "tools.ozone.moderation.defs#identityEvent":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.IdentityEvent>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.IdentityEvent>)SourceGenerationContext.Default.ToolsOzoneModerationIdentityEvent);
                 case "app.bsky.embed.images#image":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Embed.Image>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Embed.Image>)SourceGenerationContext.Default.AppBskyEmbedImage);
-                case "com.shinolabs.pinksea.oekaki#image":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Image>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Image>)SourceGenerationContext.Default.ComShinolabsPinkseaImage);
                 case "tools.ozone.moderation.defs#imageDetails":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.ImageDetails>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.ImageDetails>)SourceGenerationContext.Default.ToolsOzoneModerationImageDetails);
-                case "com.shinolabs.pinksea.oekaki#imageLink":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.ImageLink>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.ImageLink>)SourceGenerationContext.Default.ComShinolabsPinkseaImageLink);
                 case "com.atproto.label.subscribeLabels#info":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Label.Info>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Label.Info>)SourceGenerationContext.Default.ComAtprotoLabelInfo);
                 case "com.atproto.sync.subscribeRepos#info":
@@ -2294,8 +1964,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.LikeDef>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.LikeDef>)SourceGenerationContext.Default.AppBskyFeedLikeDef);
                 case "app.bsky.richtext.facet#link":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Richtext.Link>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Richtext.Link>)SourceGenerationContext.Default.AppBskyRichtextLink);
-                case "social.psky.richtext.facet#link":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Social.Psky.Richtext.Link>(text, (JsonTypeInfo<FishyFlip.Lexicon.Social.Psky.Richtext.Link>)SourceGenerationContext.Default.SocialPskyRichtextLink);
                 case "app.bsky.feed.describeFeedGenerator#links":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.Links>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.Links>)SourceGenerationContext.Default.AppBskyFeedLinks);
                 case "com.atproto.server.describeServer#links":
@@ -2336,8 +2004,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.ListViewBasic>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.ListViewBasic>)SourceGenerationContext.Default.AppBskyGraphListViewBasic);
                 case "app.bsky.graph.defs#listViewerState":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.ListViewerState>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.ListViewerState>)SourceGenerationContext.Default.AppBskyGraphListViewerState);
-                case "blue.zio.atfile.lock":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Blue.Zio.Atfile.Lock>(text, (JsonTypeInfo<FishyFlip.Lexicon.Blue.Zio.Atfile.Lock>)SourceGenerationContext.Default.BlueZioAtfileLock);
                 case "chat.bsky.convo.defs#logBeginConvo":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Convo.LogBeginConvo>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Convo.LogBeginConvo>)SourceGenerationContext.Default.ChatBskyConvoLogBeginConvo);
                 case "chat.bsky.convo.defs#logCreateMessage":
@@ -2346,18 +2012,12 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Convo.LogDeleteMessage>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Convo.LogDeleteMessage>)SourceGenerationContext.Default.ChatBskyConvoLogDeleteMessage);
                 case "chat.bsky.convo.defs#logLeaveConvo":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Convo.LogLeaveConvo>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Convo.LogLeaveConvo>)SourceGenerationContext.Default.ChatBskyConvoLogLeaveConvo);
-                case "blue.zio.atfile.finger#machine":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Blue.Zio.Atfile.Machine>(text, (JsonTypeInfo<FishyFlip.Lexicon.Blue.Zio.Atfile.Machine>)SourceGenerationContext.Default.BlueZioAtfileMachine);
                 case "tools.ozone.team.defs#member":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Team.Member>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Team.Member>)SourceGenerationContext.Default.ToolsOzoneTeamMember);
                 case "app.bsky.richtext.facet#mention":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Richtext.Mention>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Richtext.Mention>)SourceGenerationContext.Default.AppBskyRichtextMention);
-                case "social.psky.richtext.facet#mention":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Social.Psky.Richtext.Mention>(text, (JsonTypeInfo<FishyFlip.Lexicon.Social.Psky.Richtext.Mention>)SourceGenerationContext.Default.SocialPskyRichtextMention);
                 case "app.bsky.feed.threadgate#mentionRule":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.MentionRule>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.MentionRule>)SourceGenerationContext.Default.AppBskyFeedMentionRule);
-                case "social.psky.chat.message":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Social.Psky.Chat.Message>(text, (JsonTypeInfo<FishyFlip.Lexicon.Social.Psky.Chat.Message>)SourceGenerationContext.Default.SocialPskyChatMessage);
                 case "chat.bsky.convo.defs#messageInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Chat.Bsky.Convo.MessageInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Chat.Bsky.Convo.MessageInput>)SourceGenerationContext.Default.ChatBskyConvoMessageInput);
                 case "chat.bsky.convo.defs#messageRef":
@@ -2406,8 +2066,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.ModEventView>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.ModEventView>)SourceGenerationContext.Default.ToolsOzoneModerationModEventView);
                 case "tools.ozone.moderation.defs#modEventViewDetail":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.ModEventViewDetail>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.ModEventViewDetail>)SourceGenerationContext.Default.ToolsOzoneModerationModEventViewDetail);
-                case "social.psky.chat.room#modlistRef":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Social.Psky.Chat.ModlistRef>(text, (JsonTypeInfo<FishyFlip.Lexicon.Social.Psky.Chat.ModlistRef>)SourceGenerationContext.Default.SocialPskyChatModlistRef);
                 case "app.bsky.graph.muteActor#MuteActorInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.MuteActorInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.MuteActorInput>)SourceGenerationContext.Default.AppBskyGraphMuteActorInput);
                 case "app.bsky.graph.muteActorList#MuteActorListInput":
@@ -2422,50 +2080,28 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.MutedWordsPref>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.MutedWordsPref>)SourceGenerationContext.Default.AppBskyActorMutedWordsPref);
                 case "app.bsky.graph.muteThread#MuteThreadInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.MuteThreadInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.MuteThreadInput>)SourceGenerationContext.Default.AppBskyGraphMuteThreadInput);
-                case "my.skylights.rel#note":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.My.Skylights.Note>(text, (JsonTypeInfo<FishyFlip.Lexicon.My.Skylights.Note>)SourceGenerationContext.Default.MySkylightsNote);
                 case "app.bsky.graph.defs#notFoundActor":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.NotFoundActor>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.NotFoundActor>)SourceGenerationContext.Default.AppBskyGraphNotFoundActor);
                 case "app.bsky.feed.defs#notFoundPost":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.NotFoundPost>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.NotFoundPost>)SourceGenerationContext.Default.AppBskyFeedNotFoundPost);
                 case "app.bsky.notification.listNotifications#notification":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Notification.Notification>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Notification.Notification>)SourceGenerationContext.Default.AppBskyNotificationNotification);
-                case "com.whtwnd.blog.notifyOfNewEntry#NotifyOfNewEntryInput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.NotifyOfNewEntryInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.NotifyOfNewEntryInput>)SourceGenerationContext.Default.ComWhtwndBlogNotifyOfNewEntryInput);
-                case "com.whtwnd.blog.notifyOfNewEntry#NotifyOfNewEntryOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.NotifyOfNewEntryOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.NotifyOfNewEntryOutput>)SourceGenerationContext.Default.ComWhtwndBlogNotifyOfNewEntryOutput);
                 case "com.atproto.sync.notifyOfUpdate#NotifyOfUpdateInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Sync.NotifyOfUpdateInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Sync.NotifyOfUpdateInput>)SourceGenerationContext.Default.ComAtprotoSyncNotifyOfUpdateInput);
                 case "app.bsky.actor.defs#nux":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.Nux>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.Nux>)SourceGenerationContext.Default.AppBskyActorNux);
-                case "com.shinolabs.pinksea.oekaki":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Oekaki>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.Oekaki>)SourceGenerationContext.Default.ComShinolabsPinkseaOekaki);
-                case "com.shinolabs.pinksea.appViewDefs#oekakiTombstone":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.OekakiTombstone>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Shinolabs.Pinksea.OekakiTombstone>)SourceGenerationContext.Default.ComShinolabsPinkseaOekakiTombstone);
-                case "com.whtwnd.blog.defs#ogp":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Whtwnd.Blog.Ogp>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Whtwnd.Blog.Ogp>)SourceGenerationContext.Default.ComWhtwndBlogOgp);
                 case "tools.ozone.setting.defs#option":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Setting.Option>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Setting.Option>)SourceGenerationContext.Default.ToolsOzoneSettingOption);
                 case "app.bsky.actor.defs#personalDetailsPref":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.PersonalDetailsPref>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.PersonalDetailsPref>)SourceGenerationContext.Default.AppBskyActorPersonalDetailsPref);
-                case "fm.teal.alpha.feed.play":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.Play>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.Play>)SourceGenerationContext.Default.FmTealAlphaFeedPlay);
-                case "fm.teal.alpha.feed.defs#playView":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.PlayView>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fm.Teal.Alpha.Feed.PlayView>)SourceGenerationContext.Default.FmTealAlphaFeedPlayView);
                 case "app.bsky.feed.post":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.Post>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.Post>)SourceGenerationContext.Default.AppBskyFeedPost);
-                case "fyi.unravel.frontpage.post":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Post>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Post>)SourceGenerationContext.Default.FyiUnravelFrontpagePost);
                 case "app.bsky.feed.postgate":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.Postgate>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.Postgate>)SourceGenerationContext.Default.AppBskyFeedPostgate);
                 case "app.bsky.feed.defs#postView":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.PostView>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.PostView>)SourceGenerationContext.Default.AppBskyFeedPostView);
                 case "app.bsky.actor.profile":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.Profile>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.Profile>)SourceGenerationContext.Default.AppBskyActorProfile);
-                case "social.psky.actor.profile":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Social.Psky.Actor.Profile>(text, (JsonTypeInfo<FishyFlip.Lexicon.Social.Psky.Actor.Profile>)SourceGenerationContext.Default.SocialPskyActorProfile);
-                case "fm.teal.alpha.actor.profile":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.Profile>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.Profile>)SourceGenerationContext.Default.FmTealAlphaActorProfile);
                 case "app.bsky.actor.defs#profileAssociated":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.ProfileAssociated>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.ProfileAssociated>)SourceGenerationContext.Default.AppBskyActorProfileAssociated);
                 case "app.bsky.actor.defs#profileAssociatedChat":
@@ -2494,8 +2130,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Set.QuerySetsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Set.QuerySetsOutput>)SourceGenerationContext.Default.ToolsOzoneSetQuerySetsOutput);
                 case "tools.ozone.moderation.queryStatuses#QueryStatusesOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.QueryStatusesOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.QueryStatusesOutput>)SourceGenerationContext.Default.ToolsOzoneModerationQueryStatusesOutput);
-                case "my.skylights.rel#rating":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.My.Skylights.Rating>(text, (JsonTypeInfo<FishyFlip.Lexicon.My.Skylights.Rating>)SourceGenerationContext.Default.MySkylightsRating);
                 case "app.bsky.feed.defs#reasonPin":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.ReasonPin>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.ReasonPin>)SourceGenerationContext.Default.AppBskyFeedReasonPin);
                 case "app.bsky.feed.defs#reasonRepost":
@@ -2518,14 +2152,10 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.RecordViewNotFound>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.RecordViewNotFound>)SourceGenerationContext.Default.ToolsOzoneModerationRecordViewNotFound);
                 case "app.bsky.embed.recordWithMedia":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Embed.RecordWithMedia>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Embed.RecordWithMedia>)SourceGenerationContext.Default.AppBskyEmbedRecordWithMedia);
-                case "my.skylights.rel#refItem":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.My.Skylights.RefItem>(text, (JsonTypeInfo<FishyFlip.Lexicon.My.Skylights.RefItem>)SourceGenerationContext.Default.MySkylightsRefItem);
                 case "com.atproto.server.refreshSession#RefreshSessionOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Server.RefreshSessionOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Server.RefreshSessionOutput>)SourceGenerationContext.Default.ComAtprotoServerRefreshSessionOutput);
                 case "app.bsky.notification.registerPush#RegisterPushInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Notification.RegisterPushInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Notification.RegisterPushInput>)SourceGenerationContext.Default.AppBskyNotificationRegisterPushInput);
-                case "my.skylights.rel":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.My.Skylights.Rel>(text, (JsonTypeInfo<FishyFlip.Lexicon.My.Skylights.Rel>)SourceGenerationContext.Default.MySkylightsRel);
                 case "tools.ozone.signature.findRelatedAccounts#relatedAccount":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Signature.RelatedAccount>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Signature.RelatedAccount>)SourceGenerationContext.Default.ToolsOzoneSignatureRelatedAccount);
                 case "app.bsky.graph.defs#relationship":
@@ -2572,10 +2202,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Identity.ResolveHandleOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Identity.ResolveHandleOutput>)SourceGenerationContext.Default.ComAtprotoIdentityResolveHandleOutput);
                 case "com.atproto.server.revokeAppPassword#RevokeAppPasswordInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Server.RevokeAppPasswordInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Server.RevokeAppPasswordInput>)SourceGenerationContext.Default.ComAtprotoServerRevokeAppPasswordInput);
-                case "social.psky.richtext.facet#room":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Social.Psky.Richtext.Room>(text, (JsonTypeInfo<FishyFlip.Lexicon.Social.Psky.Richtext.Room>)SourceGenerationContext.Default.SocialPskyRichtextRoom);
-                case "social.psky.chat.room":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Social.Psky.Chat.Room>(text, (JsonTypeInfo<FishyFlip.Lexicon.Social.Psky.Chat.Room>)SourceGenerationContext.Default.SocialPskyChatRoom);
                 case "app.bsky.actor.defs#savedFeed":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.SavedFeed>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.SavedFeed>)SourceGenerationContext.Default.AppBskyActorSavedFeed);
                 case "app.bsky.actor.defs#savedFeedsPref":
@@ -2594,8 +2220,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Unspecced.SearchActorsSkeletonOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Unspecced.SearchActorsSkeletonOutput>)SourceGenerationContext.Default.AppBskyUnspeccedSearchActorsSkeletonOutput);
                 case "app.bsky.actor.searchActorsTypeahead#SearchActorsTypeaheadOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Actor.SearchActorsTypeaheadOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Actor.SearchActorsTypeaheadOutput>)SourceGenerationContext.Default.AppBskyActorSearchActorsTypeaheadOutput);
-                case "buzz.bookhive.searchBooks#SearchBooksOutput":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Buzz.Bookhive.SearchBooksOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Buzz.Bookhive.SearchBooksOutput>)SourceGenerationContext.Default.BuzzBookhiveSearchBooksOutput);
                 case "app.bsky.feed.searchPosts#SearchPostsOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Feed.SearchPostsOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Feed.SearchPostsOutput>)SourceGenerationContext.Default.AppBskyFeedSearchPostsOutput);
                 case "app.bsky.unspecced.searchPostsSkeleton#SearchPostsSkeletonOutput":
@@ -2650,30 +2274,20 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Unspecced.SkeletonSearchPost>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Unspecced.SkeletonSearchPost>)SourceGenerationContext.Default.AppBskyUnspeccedSkeletonSearchPost);
                 case "app.bsky.unspecced.defs#skeletonSearchStarterPack":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Unspecced.SkeletonSearchStarterPack>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Unspecced.SkeletonSearchStarterPack>)SourceGenerationContext.Default.AppBskyUnspeccedSkeletonSearchStarterPack);
-                case "link.pastesphere.snippet":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Link.Pastesphere.Snippet>(text, (JsonTypeInfo<FishyFlip.Lexicon.Link.Pastesphere.Snippet>)SourceGenerationContext.Default.LinkPastesphereSnippet);
                 case "app.bsky.graph.starterpack":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.Starterpack>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.Starterpack>)SourceGenerationContext.Default.AppBskyGraphStarterpack);
                 case "app.bsky.graph.defs#starterPackView":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.StarterPackView>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.StarterPackView>)SourceGenerationContext.Default.AppBskyGraphStarterPackView);
                 case "app.bsky.graph.defs#starterPackViewBasic":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.StarterPackViewBasic>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.StarterPackViewBasic>)SourceGenerationContext.Default.AppBskyGraphStarterPackViewBasic);
-                case "app.netlify.aniblue.status":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Netlify.Aniblue.Status>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Netlify.Aniblue.Status>)SourceGenerationContext.Default.AppNetlifyAniblueStatus);
-                case "fm.teal.alpha.actor.status":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.Status>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fm.Teal.Alpha.Actor.Status>)SourceGenerationContext.Default.FmTealAlphaActorStatus);
                 case "com.atproto.admin.defs#statusAttr":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Admin.StatusAttr>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Admin.StatusAttr>)SourceGenerationContext.Default.ComAtprotoAdminStatusAttr);
-                case "app.netlify.aniblue.status#status":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Netlify.Aniblue.StatusDef>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Netlify.Aniblue.StatusDef>)SourceGenerationContext.Default.AppNetlifyAniblueStatusDef);
                 case "com.atproto.repo.strongRef":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Repo.StrongRef>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Repo.StrongRef>)SourceGenerationContext.Default.ComAtprotoRepoStrongRef);
                 case "tools.ozone.moderation.defs#subjectStatusView":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.SubjectStatusView>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.SubjectStatusView>)SourceGenerationContext.Default.ToolsOzoneModerationSubjectStatusView);
                 case "com.atproto.identity.submitPlcOperation#SubmitPlcOperationInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Identity.SubmitPlcOperationInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Identity.SubmitPlcOperationInput>)SourceGenerationContext.Default.ComAtprotoIdentitySubmitPlcOperationInput);
-                case "ma.tokono.byov.subscription":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Ma.Tokono.Byov.Subscription>(text, (JsonTypeInfo<FishyFlip.Lexicon.Ma.Tokono.Byov.Subscription>)SourceGenerationContext.Default.MaTokonoByovSubscription);
                 case "app.bsky.unspecced.getTaggedSuggestions#suggestion":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Unspecced.Suggestion>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Unspecced.Suggestion>)SourceGenerationContext.Default.AppBskyUnspeccedSuggestion);
                 case "app.bsky.richtext.facet#tag":
@@ -2694,8 +2308,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Admin.ThreatSignature>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Admin.ThreatSignature>)SourceGenerationContext.Default.ComAtprotoAdminThreatSignature);
                 case "app.bsky.unspecced.defs#trendingTopic":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Unspecced.TrendingTopic>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Unspecced.TrendingTopic>)SourceGenerationContext.Default.AppBskyUnspeccedTrendingTopic);
-                case "blue.zio.atfile.meta#unknown":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Blue.Zio.Atfile.Unknown>(text, (JsonTypeInfo<FishyFlip.Lexicon.Blue.Zio.Atfile.Unknown>)SourceGenerationContext.Default.BlueZioAtfileUnknown);
                 case "app.bsky.graph.unmuteActor#UnmuteActorInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Graph.UnmuteActorInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Graph.UnmuteActorInput>)SourceGenerationContext.Default.AppBskyGraphUnmuteActorInput);
                 case "app.bsky.graph.unmuteActorList#UnmuteActorListInput":
@@ -2736,8 +2348,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Admin.UpdateSubjectStatusOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Admin.UpdateSubjectStatusOutput>)SourceGenerationContext.Default.ComAtprotoAdminUpdateSubjectStatusOutput);
                 case "tools.ozone.communication.updateTemplate#UpdateTemplateInput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Communication.UpdateTemplateInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Communication.UpdateTemplateInput>)SourceGenerationContext.Default.ToolsOzoneCommunicationUpdateTemplateInput);
-                case "blue.zio.atfile.upload":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Blue.Zio.Atfile.Upload>(text, (JsonTypeInfo<FishyFlip.Lexicon.Blue.Zio.Atfile.Upload>)SourceGenerationContext.Default.BlueZioAtfileUpload);
                 case "com.atproto.repo.uploadBlob#UploadBlobOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Com.Atproto.Repo.UploadBlobOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Com.Atproto.Repo.UploadBlobOutput>)SourceGenerationContext.Default.ComAtprotoRepoUploadBlobOutput);
                 case "app.bsky.video.uploadVideo#UploadVideoOutput":
@@ -2746,10 +2356,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Setting.UpsertOptionInput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Setting.UpsertOptionInput>)SourceGenerationContext.Default.ToolsOzoneSettingUpsertOptionInput);
                 case "tools.ozone.setting.upsertOption#UpsertOptionOutput":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Setting.UpsertOptionOutput>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Setting.UpsertOptionOutput>)SourceGenerationContext.Default.ToolsOzoneSettingUpsertOptionOutput);
-                case "my.skylights.rel#urlItem":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.My.Skylights.UrlItem>(text, (JsonTypeInfo<FishyFlip.Lexicon.My.Skylights.UrlItem>)SourceGenerationContext.Default.MySkylightsUrlItem);
-                case "ma.tokono.byov.video":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Ma.Tokono.Byov.Video>(text, (JsonTypeInfo<FishyFlip.Lexicon.Ma.Tokono.Byov.Video>)SourceGenerationContext.Default.MaTokonoByovVideo);
                 case "tools.ozone.moderation.defs#videoDetails":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.Tools.Ozone.Moderation.VideoDetails>(text, (JsonTypeInfo<FishyFlip.Lexicon.Tools.Ozone.Moderation.VideoDetails>)SourceGenerationContext.Default.ToolsOzoneModerationVideoDetails);
                 case "app.bsky.embed.record#viewBlocked":
@@ -2780,8 +2386,6 @@ namespace FishyFlip.Lexicon
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Embed.ViewRecordWithMedia>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Embed.ViewRecordWithMedia>)SourceGenerationContext.Default.AppBskyEmbedViewRecordWithMedia);
                 case "app.bsky.embed.video#view":
                     return JsonSerializer.Deserialize<FishyFlip.Lexicon.App.Bsky.Embed.ViewVideo>(text, (JsonTypeInfo<FishyFlip.Lexicon.App.Bsky.Embed.ViewVideo>)SourceGenerationContext.Default.AppBskyEmbedViewVideo);
-                case "fyi.unravel.frontpage.vote":
-                    return JsonSerializer.Deserialize<FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Vote>(text, (JsonTypeInfo<FishyFlip.Lexicon.Fyi.Unravel.Frontpage.Vote>)SourceGenerationContext.Default.FyiUnravelFrontpageVote);
                 case "blob":
                     return JsonSerializer.Deserialize<FishyFlip.Models.Blob>(text, (JsonTypeInfo<FishyFlip.Models.Blob>)SourceGenerationContext.Default.Blob);
                 default:

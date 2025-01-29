@@ -74,12 +74,12 @@ namespace FishyFlip.Lexicon
                     return new RepoDeactivatedError(statusCode, detail);
                 case "BlockNotFound":
                     return new BlockNotFoundError(statusCode, detail);
-                case "NotFound":
-                    return new NotFoundError(statusCode, detail);
                 case "UnknownFeed":
                     return new UnknownFeedError(statusCode, detail);
                 case "UnknownList":
                     return new UnknownListError(statusCode, detail);
+                case "NotFound":
+                    return new NotFoundError(statusCode, detail);
                 case "RecordNotFound":
                     return new RecordNotFoundError(statusCode, detail);
                 case "ActorNotFound":
