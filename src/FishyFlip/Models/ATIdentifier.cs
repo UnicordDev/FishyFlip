@@ -9,6 +9,37 @@ namespace FishyFlip.Models;
 /// </summary>
 public abstract class ATIdentifier
 {
+    public static bool operator ==(ATIdentifier? lhs, ATIdentifier? rhs)
+    {
+        if (lhs is null && rhs is null)
+        {
+            return true;
+        }
+
+        if ((lhs is not null && rhs is null) ||
+            (lhs is null && rhs is not null))
+        {
+            return false;
+        }
+
+        if (lhs is not null)
+        {
+            return lhs.Equals(rhs);
+        }
+
+        if (rhs is not null)
+        {
+            return rhs.Equals(lhs);
+        }
+
+        return false;
+    }
+
+    public static bool operator !=(ATIdentifier? lhs, ATIdentifier? rhs)
+    {
+        return !(lhs == rhs);
+    }
+
     /// <summary>
     /// Creates an instance of ATIdentifier based on the provided ID.
     /// </summary>
@@ -75,7 +106,6 @@ public abstract class ATIdentifier
     /// <inheritdoc/>
     public override int GetHashCode()
     {
-        var test = this.ToString()?.GetHashCode();
         return this.ToString()?.GetHashCode() ?? 0;
     }
 }
